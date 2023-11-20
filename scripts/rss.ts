@@ -9,13 +9,14 @@ const md = new MarkdownIt();
 const files = fs.readdirSync('docs');
 const posts = files.map((file) => {
   const markdown = fs.readFileSync(path.join('docs', file), 'utf8');
-  const { data: configs, content } = matter(markdown);
+  const { data, content } = matter(markdown);
   const result = md.render(content);
   const url = '';
+  const currentNo = file.match(/issue-(\d+)\.md/)?.[1]
   return {
-    title: configs?.title,
-    image: configs?.titleImage,
-    date: new Date(configs?.publishedAt),
+    title: `第 ${currentNo} 期：${data.title}`,
+    image: data?.titleImage,
+    date: new Date(data?.publishedAt),
     content: result,
     url,
   }
@@ -28,8 +29,8 @@ const author = {
 }
 
 const feed = new RSS({
-  title: 'FE Weekly, 前端周刊',
-  description: 'FE Weekly, 前端周刊',
+  title: 'FE Weekly 前端周刊',
+  description: 'FE Weekly 前端周刊',
   feed_url: 'https://campcc.github.io/weekly/public/rss.xml',
   site_url: 'https://campcc.github.io/weekly',
   image_url: 'http://example.com/icon.png',

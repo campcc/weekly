@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "rss": "esno scripts/rss.ts"
+    "rss": "esno scripts/rss.ts",
+    "release": "esno scripts/release.ts"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "markdown-it": "^13.0.2",
     "prettier": "^3.1.0",
     "rss": "^1.2.2",
-    "xml-formatter": "^2.6.1"
+    "xml-formatter": "^2.6.1",
+    "zx": "^7.2.3"
   }
 }
