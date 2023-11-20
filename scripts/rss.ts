@@ -34,7 +34,7 @@ const feed = new RSS({
   description: 'FE Weekly 前端周刊',
   feed_url: 'https://campcc.github.io/weekly/public/rss.xml',
   site_url: 'https://campcc.github.io/weekly',
-  image_url: 'http://example.com/icon.png',
+  image_url: 'https://raw.githubusercontent.com/campcc/weekly/main/logo/logo.png',
   ttl: '60',
 });
 

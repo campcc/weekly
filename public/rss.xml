@@ -12,7 +12,7 @@
         </link>
         <image>
             <url>
-                http://example.com/icon.png
+                https://raw.githubusercontent.com/campcc/weekly/main/logo/logo.png
             </url>
             <title>
                 FE Weekly 前端周刊
@@ -25,7 +25,7 @@
             RSS for Node
         </generator>
         <lastBuildDate>
-            Mon, 20 Nov 2023 09:27:02 GMT
+            Mon, 20 Nov 2023 09:28:42 GMT
         </lastBuildDate>
         <atom:link href="https://campcc.github.io/weekly/public/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>
