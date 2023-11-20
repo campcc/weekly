@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mdhweekly.com/</id>
-    <title>MDH Weekly 前端周刊</title>
+    <id>https://campcc.github.io/weekly</id>
+    <title>FE Weekly 前端周刊</title>
     <updated>2023-11-13T00:54:20.074Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
-        <name>Chen Cheng</name>
-        <email>sorrycc@gmail.com</email>
-        <uri>https://sorrycc.com/</uri>
+        <name>Monch Lee</name>
+        <email>monchlee51@gmail.com</email>
+        <uri>https://github.com/campcc</uri>
     </author>
     <link rel="alternate" href="https://mdhweekly.com/"/>
     <link rel="self" href="https://mdhweekly.com/rss.xml"/>
-    <subtitle>MDH Weekly 前端周刊</subtitle>
+    <subtitle>FE Weekly 前端周刊</subtitle>
     <logo>https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png</logo>
     <icon>https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png</icon>
-    <rights>MDH Weekly since 2021</rights>
+    <rights>FE Weekly since 2023</rights>
     <entry>
         <title type="html"><![CDATA[第 0113 期：Angular.dev、Angular 17、pacquet、设计模式、Rust Prettier 悬赏]]></title>
         <id>https://mdhweekly.com/weekly/issue-0113</id>
