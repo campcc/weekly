@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "rss": "esno scripts/rss.ts",
+    "if": "esno scripts/utils.ts",
     "release": "esno scripts/release.ts"
   },
   "repository": {

@@ -1,16 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
-export function getInfo() {
+export function getLatestDocNum() {
   const cwd = process.cwd();
   const dir = path.join(cwd, 'docs');
   const files = fs
     .readdirSync(dir)
-    .filter((f) => {
+    .filter((file) => {
       return (
-        f.endsWith('.md') &&
-        f.startsWith('issue-') &&
-        !fs.readFileSync(path.join(dir, f), 'utf-8').includes('draft: true')
+        file.endsWith('.md') &&
+        file.startsWith('issue-') &&
+        !fs.readFileSync(path.join(dir, file), 'utf-8').includes('draft: true')
       );
     })
     .sort((a, b) => {
@@ -19,11 +19,6 @@ export function getInfo() {
       return bNum - aNum;
     });
   const latestDoc = files[0];
-  const latestDocNum = parseInt(
-    latestDoc.replace('issue-', '').replace('.md', ''),
-  );
-  return {
-    latestDocNum,
-    nextDocNum: latestDocNum + 1,
-  };
+  const latestDocNum = latestDoc.match(/issue-(\d+)\.md/)?.[1];
+  return latestDocNum;
 }

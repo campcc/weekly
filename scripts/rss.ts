@@ -4,7 +4,7 @@ import RSS from 'rss';
 import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
 import formatter from 'xml-formatter';
-import { getInfo } from './utils';
+import { getLatestDocNum } from './utils';
 
 const md = new MarkdownIt();
 const files = fs.readdirSync('docs');
@@ -13,7 +13,7 @@ const posts = files.map((file) => {
   const { data, content } = matter(markdown);
   const result = md.render(content);
   const url = '';
-  const { latestDocNum } = getInfo();
+  const latestDocNum = getLatestDocNum();
   return {
     title: `第 ${latestDocNum} 期：${data.title}`,
     image: data?.titleImage,
@@ -35,10 +35,6 @@ const feed = new RSS({
   feed_url: 'https://campcc.github.io/weekly/public/rss.xml',
   site_url: 'https://campcc.github.io/weekly',
   image_url: 'http://example.com/icon.png',
-  managingEditor: 'Editor',
-  webMaster: 'Webmaster',
-  language: 'en',
-  pubDate: 'May 20, 2020 04:00:00 GMT',
   ttl: '60',
 });
 
@@ -54,6 +50,4 @@ posts.forEach((post) => {
 
 const xml = feed.xml();
 
-(async () => {
-  fs.writeFileSync('public/rss.xml', formatter(xml), 'utf-8');
-})();
+fs.writeFileSync('public/rss.xml', formatter(xml), 'utf-8');

@@ -1,3 +1,3 @@
-# weekly
+# FE Weekly
 
-- RSS 订阅
+前端技术资讯周刊
