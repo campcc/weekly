@@ -1,4 +1,13 @@
-# FE Weekly 前端周刊 ❤️
+import fs from 'fs';
+import { posts } from './rss';
+
+const latestPosts = posts.map(
+  (post) =>
+    `- [Weekly ${post?.title}](https://campcc.github.io/weekly/docs/issue-${post.currentDocNum})`,
+).join(`
+`);
+
+const readme = `# FE Weekly 前端周刊 ❤️
 
 <img src="https://raw.githubusercontent.com/campcc/weekly/main/logo/logo.png" width="120" height="120" />
 
@@ -12,5 +21,6 @@
 - [RSS](https://campcc.github.io/weekly/public/rss.xml)
 
 ## 往期周刊
-- [Weekly 第 001 期：文章标题](https://campcc.github.io/weekly/docs/issue-001)
-- [Weekly 第 002 期：文章标题](https://campcc.github.io/weekly/docs/issue-002)
+${latestPosts}`;
+
+fs.writeFileSync('README.md', readme, 'utf-8');

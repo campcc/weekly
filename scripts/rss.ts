@@ -4,18 +4,18 @@ import RSS from 'rss';
 import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
 import formatter from 'xml-formatter';
-import { getLatestDocNum } from './utils';
 
 const md = new MarkdownIt();
 const files = fs.readdirSync('docs');
-const posts = files.map((file) => {
+export const posts = files.map((file) => {
   const markdown = fs.readFileSync(path.join('docs', file), 'utf8');
   const { data, content } = matter(markdown);
   const result = md.render(content);
   const url = '';
-  const latestDocNum = getLatestDocNum();
+  const currentDocNum = file.match(/issue-(\d+)\.md/)?.[1]
   return {
-    title: `第 ${latestDocNum} 期：${data.title}`,
+    currentDocNum,
+    title: `第 ${currentDocNum} 期：${data.title}`,
     image: data?.titleImage,
     date: new Date(data?.publishedAt),
     content: result,

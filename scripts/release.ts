@@ -4,6 +4,7 @@ import { getLatestDocNum } from './utils';
 (async () => {
   const latestDocNum = getLatestDocNum();
   await $`npm run rss`;
+  await $`npm run readme`;
   await $`git add ./`;
   await $`git commit -am 'feat: FE Weekly No.${latestDocNum}'`;
   await $`git push`;

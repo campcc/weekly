@@ -25,7 +25,7 @@
             RSS for Node
         </generator>
         <lastBuildDate>
-            Mon, 20 Nov 2023 09:59:12 GMT
+            Mon, 20 Nov 2023 10:19:11 GMT
         </lastBuildDate>
         <atom:link href="https://campcc.github.io/weekly/public/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>
@@ -42,6 +42,25 @@
             </description>
             <guid isPermaLink="false">
                 第 001 期：文章标题
+            </guid>
+            <dc:creator>
+                <![CDATA[Monch Lee]]>
+            </dc:creator>
+            <pubDate>
+                Thu, 30 Nov 2023 16:00:00 GMT
+            </pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[第 002 期：文章标题]]>
+            </title>
+            <description>
+                <![CDATA[<h2>技术资讯</h2>
+<h2>推荐文章</h2>
+]]>
+            </description>
+            <guid isPermaLink="false">
+                第 002 期：文章标题
             </guid>
             <dc:creator>
                 <![CDATA[Monch Lee]]>
