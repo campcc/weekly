@@ -1,9 +1,10 @@
-import fs from 'fs'
-import path from 'path'
-import RSS from 'rss'
-import matter from 'gray-matter'
-import MarkdownIt from 'markdown-it'
-import formatter from 'xml-formatter'
+import fs from 'fs';
+import path from 'path';
+import RSS from 'rss';
+import matter from 'gray-matter';
+import MarkdownIt from 'markdown-it';
+import formatter from 'xml-formatter';
+import { getInfo } from './utils';
 
 const md = new MarkdownIt();
 const files = fs.readdirSync('docs');
@@ -12,21 +13,21 @@ const posts = files.map((file) => {
   const { data, content } = matter(markdown);
   const result = md.render(content);
   const url = '';
-  const currentNo = file.match(/issue-(\d+)\.md/)?.[1]
+  const { latestDocNum } = getInfo();
   return {
-    title: `第 ${currentNo} 期：${data.title}`,
+    title: `第 ${latestDocNum} 期：${data.title}`,
     image: data?.titleImage,
     date: new Date(data?.publishedAt),
     content: result,
     url,
-  }
-})
+  };
+});
 
 const author = {
-  name: "Monch Lee",
-  email: "monchlee51@gmail.com",
-  link: "https://github.com/campcc"
-}
+  name: 'Monch Lee',
+  email: 'monchlee51@gmail.com',
+  link: 'https://github.com/campcc',
+};
 
 const feed = new RSS({
   title: 'FE Weekly 前端周刊',
@@ -49,11 +50,10 @@ posts.forEach((post) => {
     author: author.name,
     date: post.date,
   });
-})
+});
 
 const xml = feed.xml();
 
 (async () => {
-  fs.writeFileSync('public/rss.xml', formatter(xml), 'utf-8')
-})()
-
+  fs.writeFileSync('public/rss.xml', formatter(xml), 'utf-8');
+})();
