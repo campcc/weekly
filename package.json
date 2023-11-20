@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "rss": "esno scripts/rss.ts",
-    "readme": "esno scripts/readme.ts",
+    "readme": "esno scripts/generate-readme.ts",
     "release": "esno scripts/release.ts"
   },
   "repository": {

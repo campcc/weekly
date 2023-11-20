@@ -4,13 +4,11 @@
 
 🚀 前端技术资讯周刊，每周一早上 9:00 更新。
 
-<strong>为什么写周刊？</strong>
-
-<strong>如何订阅？</strong>
+## 如何订阅？
 
 - [Github](https://github.com/campcc/weekly)
 - [RSS](https://campcc.github.io/weekly/public/rss.xml)
 
 ## 往期周刊
-- [Weekly 第 001 期：文章标题](https://campcc.github.io/weekly/docs/issue-001)
 - [Weekly 第 002 期：文章标题](https://campcc.github.io/weekly/docs/issue-002)
+- [Weekly 第 001 期：文章标题](https://campcc.github.io/weekly/docs/issue-001)
