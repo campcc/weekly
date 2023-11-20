@@ -1,0 +1,30 @@
+{
+  "name": "weekly",
+  "version": "1.0.0",
+  "description": "FE Weekly news & posts",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "rss": "esno scripts/rss.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campcc/weekly.git"
+  },
+  "author": "Monch Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/campcc/weekly/issues"
+  },
+  "homepage": "https://github.com/campcc/weekly#readme",
+  "devDependencies": {
+    "@types/node": "^20.9.1",
+    "esno": "^4.0.0",
+    "feed": "^4.2.2",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^13.0.2",
+    "prettier": "^3.1.0",
+    "rss": "^1.2.2",
+    "xml-formatter": "^2.6.1"
+  }
+}
