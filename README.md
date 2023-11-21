@@ -1,8 +1,8 @@
-# 前端技术新闻周刊 ❤️
+# FE News Weekly ❤️
 
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-<img src="https://raw.githubusercontent.com/campcc/weekly/main/logo/logo.png" width="260" height="128" />
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/logo/logo.png" width="173" height="85" />
 
 🚀 前端技术新闻周刊，每周一早上 9:00 发布。
 
