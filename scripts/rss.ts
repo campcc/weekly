@@ -15,7 +15,7 @@ export const posts = files.map((file) => {
   const currentDocNum = file.match(/issue-(\d+)\.md/)?.[1]
   return {
     currentDocNum,
-    title: `第 ${currentDocNum} 期：${data.title}`,
+    title: `第 ${currentDocNum} 期: ${data.title}`,
     image: data?.titleImage,
     date: new Date(data?.publishedAt),
     content: result,
