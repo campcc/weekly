@@ -2,10 +2,10 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>
-            <![CDATA[FE Weekly 前端周刊]]>
+            <![CDATA[FE News Weekly 前端技术新闻周刊]]>
         </title>
         <description>
-            <![CDATA[FE Weekly 前端周刊]]>
+            <![CDATA[FE News Weekly 前端技术新闻周刊]]>
         </description>
         <link>
             https://campcc.github.io/weekly
@@ -15,7 +15,7 @@
                 https://raw.githubusercontent.com/campcc/weekly/main/logo/logo.png
             </url>
             <title>
-                FE Weekly 前端周刊
+                FE News Weekly 前端技术新闻周刊
             </title>
             <link>
                 https://campcc.github.io/weekly
@@ -25,7 +25,7 @@
             RSS for Node
         </generator>
         <lastBuildDate>
-            Tue, 21 Nov 2023 02:55:24 GMT
+            Tue, 21 Nov 2023 11:09:07 GMT
         </lastBuildDate>
         <atom:link href="https://campcc.github.io/weekly/public/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>

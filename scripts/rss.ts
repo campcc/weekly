@@ -30,8 +30,8 @@ const author = {
 };
 
 const feed = new RSS({
-  title: 'FE Weekly 前端周刊',
-  description: 'FE Weekly 前端周刊',
+  title: 'FE News Weekly 前端技术新闻周刊',
+  description: 'FE News Weekly 前端技术新闻周刊',
   feed_url: 'https://campcc.github.io/weekly/public/rss.xml',
   site_url: 'https://campcc.github.io/weekly',
   image_url: 'https://raw.githubusercontent.com/campcc/weekly/main/logo/logo.png',
