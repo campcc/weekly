@@ -6,7 +6,7 @@ import { getLatestDocNum } from './utils';
   await $`npm run rss`;
   await $`npm run readme`;
   await $`git add ./`;
-  await $`git commit -am 'feat: FE Weekly No.${latestDocNum}'`;
+  await $`git commit -am 'No.${latestDocNum}'`;
   await $`git push`;
 })().catch((e) => {
   console.error(e);
