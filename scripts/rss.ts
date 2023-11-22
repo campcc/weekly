@@ -37,8 +37,8 @@ const feed = new Feed({
   description: 'FE News Weekly 前端技术新闻周刊',
   id: 'https://campcc.github.io/weekly',
   link: 'https://campcc.github.io/weekly',
-  image: 'https://raw.githubusercontent.com/campcc/weekly/main/favicon.ico',
-  favicon: 'https://raw.githubusercontent.com/campcc/weekly/main/favicon.ico',
+  image: 'https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png',
+  favicon: 'https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png',
   copyright: 'All rights reserved 2023, Monch Lee',
   author,
 });
