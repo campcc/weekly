@@ -14,6 +14,7 @@ export const posts = files.map((file) => {
   const { data, content } = matter(markdown);
   const result = md.render(content);
   const currentDocNum = file.match(/issue-(\d+)\.md/)?.[1];
+  const url = `https://campcc.github.io/weekly/docs/issue-${currentDocNum}`;
   return {
     currentDocNum,
     description: '',
@@ -21,7 +22,7 @@ export const posts = files.map((file) => {
     title: `第 ${currentDocNum} 期: ${data.title}`,
     date: dayjs(data?.publishedAt).toDate(),
     content: result,
-    url: data?.url,
+    url,
   };
 });
 
@@ -34,8 +35,9 @@ const author = {
 const feed = new Feed({
   title: 'FE News Weekly 前端周刊',
   description: 'FE News Weekly 前端技术新闻周刊',
-  id: 'https://campcc.github.io/weekly/public/rss.xml',
+  id: 'https://campcc.github.io/weekly',
   link: 'https://campcc.github.io/weekly',
+  image: 'https://raw.githubusercontent.com/campcc/weekly/main/favicon.ico',
   favicon: 'https://raw.githubusercontent.com/campcc/weekly/main/favicon.ico',
   copyright: 'All rights reserved 2023, Monch Lee',
   author,
