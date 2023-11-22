@@ -1,56 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>
-            <![CDATA[FE News Weekly 前端技术新闻周刊]]>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>
+        https://campcc.github.io/weekly/public/rss.xml
+    </id>
+    <title>
+        FE News Weekly 前端技术新闻周刊
+    </title>
+    <updated>
+        2023-11-22T10:56:17.151Z
+    </updated>
+    <generator>
+        https://github.com/jpmonette/feed
+    </generator>
+    <author>
+        <name>
+            Monch Lee
+        </name>
+        <email>
+            monchlee51@gmail.com
+        </email>
+        <uri>
+            https://github.com/campcc
+        </uri>
+    </author>
+    <link rel="alternate" href="https://campcc.github.io/weekly"/>
+    <subtitle>
+        FE News Weekly 前端技术新闻周刊
+    </subtitle>
+    <logo>
+        https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg
+    </logo>
+    <icon>
+        https://raw.githubusercontent.com/campcc/weekly/main/favicon.ico
+    </icon>
+    <rights>
+        All rights reserved 2023, Monch Lee
+    </rights>
+    <entry>
+        <title type="html">
+            <![CDATA[第 001 期: Vite release 5.0]]>
         </title>
-        <description>
-            <![CDATA[FE News Weekly 前端技术新闻周刊]]>
-        </description>
-        <link>
-            https://campcc.github.io/weekly
-        </link>
-        <image>
-            <url>
-                https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg
-            </url>
-            <title>
-                FE News Weekly 前端技术新闻周刊
-            </title>
-            <link>
-                https://campcc.github.io/weekly
-            </link>
-        </image>
-        <generator>
-            RSS for Node
-        </generator>
-        <lastBuildDate>
-            Wed, 22 Nov 2023 10:44:51 GMT
-        </lastBuildDate>
-        <atom:link href="https://campcc.github.io/weekly/public/rss.xml" rel="self" type="application/rss+xml"/>
-        <ttl>
-            60
-        </ttl>
-        <item>
-            <title>
-                <![CDATA[第 001 期: Vite release 5.0]]>
-            </title>
-            <description>
-                <![CDATA[<h2>技术新闻</h2>
+        <id/>
+        <link/>
+        <updated>
+            2023-11-26T16:00:00.000Z
+        </updated>
+        <content type="html">
+            <![CDATA[<h2>技术新闻</h2>
 <h2>优质文章</h2>
 <h2>欢迎订阅</h2>
 ]]>
-            </description>
-            <guid isPermaLink="false">
-                第 001 期: Vite release 5.0
-            </guid>
-            <dc:creator>
-                <![CDATA[Monch Lee]]>
-            </dc:creator>
-            <pubDate>
-                Sun, 26 Nov 2023 16:00:00 GMT
-            </pubDate>
-            <image href="https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg"/>
-        </item>
-    </channel>
-</rss>
+        </content>
+        <author>
+            <name>
+                Monch Lee
+            </name>
+            <email>
+                monchlee51@gmail.com
+            </email>
+            <uri>
+                https://github.com/campcc
+            </uri>
+        </author>
+    </entry>
+</feed>

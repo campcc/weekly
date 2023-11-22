@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import RSS from 'rss';
+import { Feed } from 'feed';
+import dayjs from 'dayjs';
 import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
 import formatter from 'xml-formatter';
@@ -15,8 +16,10 @@ export const posts = files.map((file) => {
   const currentDocNum = file.match(/issue-(\d+)\.md/)?.[1];
   return {
     currentDocNum,
+    description: '',
+    image: data?.titleImage,
     title: `第 ${currentDocNum} 期: ${data.title}`,
-    date: data?.publishedAt,
+    date: dayjs(data?.publishedAt).toDate(),
     content: result,
     url: data?.url,
   };
@@ -28,35 +31,31 @@ const author = {
   link: 'https://github.com/campcc',
 };
 
-const feed = new RSS({
+const feed = new Feed({
   title: 'FE News Weekly 前端技术新闻周刊',
   description: 'FE News Weekly 前端技术新闻周刊',
-  feed_url: 'https://campcc.github.io/weekly/public/rss.xml',
-  site_url: 'https://campcc.github.io/weekly',
-  image_url:
+  id: 'https://campcc.github.io/weekly/public/rss.xml',
+  link: 'https://campcc.github.io/weekly',
+  image:
     'https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg',
-  ttl: '60',
+  favicon: 'https://raw.githubusercontent.com/campcc/weekly/main/favicon.ico',
+  copyright: 'All rights reserved 2023, Monch Lee',
+  author,
 });
 
 posts.forEach((post) => {
-  feed.item({
+  feed.addItem({
     title: post?.title,
-    description: post.content,
-    url: post.url,
-    author: author.name,
+    description: post?.description,
+    content: post?.content,
+    id: post.url,
+    link: post.url,
+    author: [author],
     date: post.date,
-    custom_elements: [
-      {
-        image: {
-          _attr: {
-            href: 'https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg',
-          },
-        },
-      },
-    ],
+    image: post.image,
   });
 });
 
-const xml = feed.xml();
+const xml = feed.atom1();
 
 fs.writeFileSync('public/rss.xml', formatter(xml), 'utf-8');
