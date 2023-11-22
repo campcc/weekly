@@ -43,7 +43,7 @@ const feed = new Feed({
   author,
 });
 
-posts.forEach((post) => {
+posts.reverse().forEach((post) => {
   feed.addItem({
     title: post?.title,
     description: post?.description,

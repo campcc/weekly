@@ -11,7 +11,7 @@
             FE News Weekly 前端技术新闻周刊
         </description>
         <lastBuildDate>
-            Wed, 22 Nov 2023 11:40:23 GMT
+            Wed, 22 Nov 2023 11:42:54 GMT
         </lastBuildDate>
         <docs>
             https://validator.w3.org/feed/docs/rss2.html
@@ -35,7 +35,7 @@
         </copyright>
         <item>
             <title>
-                <![CDATA[第 001 期: Vite release 5.0]]>
+                <![CDATA[第 002 期: Vite release 5.0]]>
             </title>
             <pubDate>
                 Sun, 26 Nov 2023 16:00:00 GMT
@@ -50,7 +50,7 @@
         </item>
         <item>
             <title>
-                <![CDATA[第 002 期: Vite release 5.0]]>
+                <![CDATA[第 001 期: Vite release 5.0]]>
             </title>
             <pubDate>
                 Sun, 26 Nov 2023 16:00:00 GMT
