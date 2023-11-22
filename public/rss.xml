@@ -25,7 +25,7 @@
             RSS for Node
         </generator>
         <lastBuildDate>
-            Wed, 22 Nov 2023 10:38:52 GMT
+            Wed, 22 Nov 2023 10:42:58 GMT
         </lastBuildDate>
         <atom:link href="https://campcc.github.io/weekly/public/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>
@@ -36,8 +36,7 @@
                 <![CDATA[第 001 期: Vite release 5.0]]>
             </title>
             <description>
-                <![CDATA[<p>&lt;img src=&quot;https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg&quot;  /&gt;</p>
-<h2>技术新闻</h2>
+                <![CDATA[<h2>技术新闻</h2>
 <h2>优质文章</h2>
 <h2>欢迎订阅</h2>
 ]]>
@@ -51,6 +50,16 @@
             <pubDate>
                 Sun, 26 Nov 2023 16:00:00 GMT
             </pubDate>
+            <itunes:author>
+                John Doe
+            </itunes:author>
+            <itunes:subtitle>
+                A short primer on table spices
+            </itunes:subtitle>
+            <itunes:image href="https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg"/>
+            <itunes:duration>
+                7:04
+            </itunes:duration>
         </item>
     </channel>
 </rss>
