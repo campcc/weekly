@@ -7,7 +7,7 @@
         FE News Weekly 前端周刊
     </title>
     <updated>
-        2023-11-22T11:27:03.082Z
+        2023-11-22T11:30:40.315Z
     </updated>
     <generator>
         https://github.com/jpmonette/feed
@@ -39,6 +39,22 @@
     <entry>
         <title type="html">
             <![CDATA[第 001 期: Vite release 5.0]]>
+        </title>
+        <id/>
+        <link href=""/>
+        <updated>
+            2023-11-26T16:00:00.000Z
+        </updated>
+        <content type="html">
+            <![CDATA[<h2>技术新闻</h2>
+<h2>优质文章</h2>
+<h2>欢迎订阅</h2>
+]]>
+        </content>
+    </entry>
+    <entry>
+        <title type="html">
+            <![CDATA[第 undefined 期: Vite release 5.0]]>
         </title>
         <id/>
         <link href=""/>
