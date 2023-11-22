@@ -25,7 +25,7 @@
             RSS for Node
         </generator>
         <lastBuildDate>
-            Tue, 21 Nov 2023 11:09:07 GMT
+            Wed, 22 Nov 2023 07:59:57 GMT
         </lastBuildDate>
         <atom:link href="https://campcc.github.io/weekly/public/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>
@@ -33,26 +33,7 @@
         </ttl>
         <item>
             <title>
-                <![CDATA[第 001 期: 文章标题]]>
-            </title>
-            <description>
-                <![CDATA[<h2>技术新闻</h2>
-<h2>优质文章</h2>
-]]>
-            </description>
-            <guid isPermaLink="false">
-                第 001 期: 文章标题
-            </guid>
-            <dc:creator>
-                <![CDATA[Monch Lee]]>
-            </dc:creator>
-            <pubDate>
-                Thu, 30 Nov 2023 16:00:00 GMT
-            </pubDate>
-        </item>
-        <item>
-            <title>
-                <![CDATA[第 002 期: 文章标题]]>
+                <![CDATA[第 001 期: Vite release 5.0]]>
             </title>
             <description>
                 <![CDATA[<h2>技术新闻</h2>
@@ -61,13 +42,13 @@
 ]]>
             </description>
             <guid isPermaLink="false">
-                第 002 期: 文章标题
+                第 001 期: Vite release 5.0
             </guid>
             <dc:creator>
                 <![CDATA[Monch Lee]]>
             </dc:creator>
             <pubDate>
-                Thu, 30 Nov 2023 16:00:00 GMT
+                Mon, 27 Nov 2023 01:00:00 GMT
             </pubDate>
         </item>
     </channel>

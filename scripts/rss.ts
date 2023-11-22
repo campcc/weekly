@@ -7,19 +7,19 @@ import formatter from 'xml-formatter';
 
 const md = new MarkdownIt();
 const files = fs.readdirSync('docs');
+
 export const posts = files.map((file) => {
   const markdown = fs.readFileSync(path.join('docs', file), 'utf8');
   const { data, content } = matter(markdown);
   const result = md.render(content);
-  const url = '';
-  const currentDocNum = file.match(/issue-(\d+)\.md/)?.[1]
+  const currentDocNum = file.match(/issue-(\d+)\.md/)?.[1];
   return {
     currentDocNum,
     title: `第 ${currentDocNum} 期: ${data.title}`,
     image: data?.titleImage,
-    date: new Date(data?.publishedAt),
+    date: data?.publishedAt,
     content: result,
-    url,
+    url: data?.url,
   };
 });
 
@@ -45,6 +45,7 @@ posts.forEach((post) => {
     url: post.url,
     author: author.name,
     date: post.date,
+    image_url: 'https://raw.githubusercontent.com/campcc/weekly/main/logo/logo.png',
   });
 });
 
