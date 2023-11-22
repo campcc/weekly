@@ -21,7 +21,7 @@ export const posts = files.map((file) => {
     title: `第 ${currentDocNum} 期: ${data.title}`,
     date: dayjs(data?.publishedAt).toDate(),
     content: result,
-    url: data?.url,
+    url: 'https://campcc.github.io/weekly',
   };
 });
 
