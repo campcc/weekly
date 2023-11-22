@@ -7,7 +7,7 @@
         FE News Weekly 前端周刊
     </title>
     <updated>
-        2023-11-22T11:33:18.105Z
+        2023-11-22T11:36:08.243Z
     </updated>
     <generator>
         https://github.com/jpmonette/feed
@@ -56,12 +56,12 @@
     </entry>
     <entry>
         <title type="html">
-            <![CDATA[第 undefined 期: Vite release 5.0]]>
+            <![CDATA[第 002 期: Vite release 5.0]]>
         </title>
         <id>
-            https://campcc.github.io/weekly/docs/issue-undefined
+            https://campcc.github.io/weekly/docs/issue-002
         </id>
-        <link href="https://campcc.github.io/weekly/docs/issue-undefined"/>
+        <link href="https://campcc.github.io/weekly/docs/issue-002"/>
         <updated>
             2023-11-26T16:00:00.000Z
         </updated>
