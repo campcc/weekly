@@ -11,7 +11,7 @@
             FE News Weekly 前端技术新闻周刊
         </description>
         <lastBuildDate>
-            Wed, 22 Nov 2023 11:52:51 GMT
+            Wed, 22 Nov 2023 11:58:39 GMT
         </lastBuildDate>
         <docs>
             https://validator.w3.org/feed/docs/rss2.html
@@ -37,6 +37,12 @@
             <title>
                 <![CDATA[第 002 期: Vite release 5.0]]>
             </title>
+            <link>
+                https://campcc.github.io/weekly/docs/issue-002
+            </link>
+            <guid>
+                https://campcc.github.io/weekly/docs/issue-002
+            </guid>
             <pubDate>
                 Sun, 26 Nov 2023 16:00:00 GMT
             </pubDate>
@@ -50,14 +56,21 @@
         </item>
         <item>
             <title>
-                <![CDATA[第 001 期: Vite release 4.0]]>
+                <![CDATA[第 001 期: Vite release 5.0]]>
             </title>
+            <link>
+                https://campcc.github.io/weekly/docs/issue-001
+            </link>
+            <guid>
+                https://campcc.github.io/weekly/docs/issue-001
+            </guid>
             <pubDate>
                 Sun, 26 Nov 2023 16:00:00 GMT
             </pubDate>
             <content:encoded>
                 <![CDATA[<h2>技术新闻</h2>
 <h2>优质文章</h2>
+<h2>欢迎订阅</h2>
 ]]>
             </content:encoded>
             <enclosure url="https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg" length="0" type="image/jpg"/>
