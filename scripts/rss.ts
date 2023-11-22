@@ -56,6 +56,6 @@ posts.forEach((post) => {
   });
 });
 
-const xml = feed.atom1();
+const xml = feed.rss2();
 
 fs.writeFileSync('public/rss.xml', formatter(xml), 'utf-8');
