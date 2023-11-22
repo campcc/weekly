@@ -32,12 +32,10 @@ const author = {
 };
 
 const feed = new Feed({
-  title: 'FE News Weekly 前端技术新闻周刊',
+  title: 'FE News Weekly 前端周刊',
   description: 'FE News Weekly 前端技术新闻周刊',
   id: 'https://campcc.github.io/weekly/public/rss.xml',
   link: 'https://campcc.github.io/weekly',
-  image:
-    'https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg',
   favicon: 'https://raw.githubusercontent.com/campcc/weekly/main/favicon.ico',
   copyright: 'All rights reserved 2023, Monch Lee',
   author,
@@ -50,12 +48,11 @@ posts.forEach((post) => {
     content: post?.content,
     id: post.url,
     link: post.url,
-    author: [author],
     date: post.date,
     image: post.image,
   });
 });
 
-const xml = feed.rss2();
+const xml = feed.atom1();
 
 fs.writeFileSync('public/rss.xml', formatter(xml), 'utf-8');
