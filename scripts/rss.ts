@@ -16,7 +16,6 @@ export const posts = files.map((file) => {
   return {
     currentDocNum,
     title: `第 ${currentDocNum} 期: ${data.title}`,
-    image: data?.titleImage,
     date: data?.publishedAt,
     content: result,
     url: data?.url,
@@ -34,7 +33,7 @@ const feed = new RSS({
   description: 'FE News Weekly 前端技术新闻周刊',
   feed_url: 'https://campcc.github.io/weekly/public/rss.xml',
   site_url: 'https://campcc.github.io/weekly',
-  image_url: 'https://raw.githubusercontent.com/campcc/weekly/main/logo/logo.png',
+  image_url: 'https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg',
   ttl: '60',
 });
 
@@ -45,7 +44,6 @@ posts.forEach((post) => {
     url: post.url,
     author: author.name,
     date: post.date,
-    image_url: 'https://raw.githubusercontent.com/campcc/weekly/main/logo/logo.png',
   });
 });
 
