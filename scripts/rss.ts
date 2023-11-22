@@ -14,7 +14,7 @@ export const posts = files.map((file) => {
   const { data, content } = matter(markdown);
   const result = md.render(content);
   const currentDocNum = file.match(/issue-(\d+)\.md/)?.[1];
-  const url = `https://campcc.github.io/weekly/docs/issue-${currentDocNum}`;
+  const url = `https://campcc.github.io/weekly/issue-${currentDocNum}`;
   return {
     currentDocNum,
     description: '',
