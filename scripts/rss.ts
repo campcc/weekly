@@ -39,7 +39,7 @@ const feed = new Feed({
   link: 'https://campcc.github.io/weekly',
   image: 'https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png',
   favicon: 'https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png',
-  copyright: 'All rights reserved 2023, Monch Lee',
+  copyright: 'FE News Weekly since 2023',
   author,
 });
 
