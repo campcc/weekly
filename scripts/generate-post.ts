@@ -12,7 +12,7 @@ titleImage:
 publishedAt: ${publishedAt}
 ---
 
-> 欢迎打开新的一期 FE News Weekly, 这是第 ${nextDocNum} 期, 发表于 ${publishedAt}, 下面为您带来本周最新的前端技术新闻 & 优质文章推荐 ⚡️
+> 欢迎打开新的一期 FE News Weekly, 这是第 ${nextDocNum} 期, 发表于 ${publishedAt}, 下面为您带来本周最新的前端技术新闻 & 优质文章 ⚡️
 
 ## 技术新闻
 
