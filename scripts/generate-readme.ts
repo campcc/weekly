@@ -33,7 +33,7 @@ const readme = `# FE News Weekly ❤️
 
 如果觉得周刊对你有帮助，可以请我喝杯咖啡，交个朋友 ❤️
 
-<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/coffee.jpg" width="200" height="200" />
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/coffee.png" width="160" height="160" />
 
 ## 如何订阅？
 
