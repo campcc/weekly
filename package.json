@@ -7,6 +7,7 @@
   "scripts": {
     "rss": "esno scripts/rss.ts",
     "readme": "esno scripts/generate-readme.ts",
+    "post": "esno scripts/generate-post.ts",
     "release": "esno scripts/release.ts"
   },
   "repository": {
