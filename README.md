@@ -12,5 +12,6 @@
 - [RSS](https://campcc.github.io/weekly/public/rss.xml)
 
 ## 往期周刊
+- [Weekly 第 003 期: null](https://campcc.github.io/weekly/docs/issue-003)
 - [Weekly 第 002 期: null](https://campcc.github.io/weekly/docs/issue-002)
 - [Weekly 第 001 期: Vite release 5.0](https://campcc.github.io/weekly/docs/issue-001)
