@@ -43,17 +43,20 @@ const feed = new Feed({
   author,
 });
 
-posts.slice(0, 4).forEach((post) => {
-  feed.addItem({
-    title: post?.title,
-    description: post?.description,
-    content: post?.content,
-    id: post.url,
-    link: post.url,
-    date: post.date,
-    image: post.image,
+posts
+  .slice(0, 4)
+  .reverse()
+  .forEach((post) => {
+    feed.addItem({
+      title: post?.title,
+      description: post?.description,
+      content: post?.content,
+      id: post.url,
+      link: post.url,
+      date: post.date,
+      image: post.image,
+    });
   });
-});
 
 const xml = feed.rss2();
 

@@ -11,7 +11,7 @@
             FE News Weekly 前端技术新闻周刊
         </description>
         <lastBuildDate>
-            Thu, 23 Nov 2023 06:12:01 GMT
+            Thu, 23 Nov 2023 06:12:47 GMT
         </lastBuildDate>
         <docs>
             https://validator.w3.org/feed/docs/rss2.html
@@ -35,6 +35,29 @@
         </copyright>
         <item>
             <title>
+                <![CDATA[第 002 期: null]]>
+            </title>
+            <link>
+                https://campcc.github.io/weekly/issue-002
+            </link>
+            <guid>
+                https://campcc.github.io/weekly/issue-002
+            </guid>
+            <pubDate>
+                Wed, 22 Nov 2023 16:00:00 GMT
+            </pubDate>
+            <content:encoded>
+                <![CDATA[<blockquote>
+<p>❤️ 欢迎打开新的一期 FE News Weekly 周刊, 这是第 002 期, 发表于 2023/11/23, 下面为您带来本周最新的前端技术新闻 &amp; 优质文章推荐。</p>
+</blockquote>
+<h2>技术新闻</h2>
+<h2>优质文章</h2>
+<h2>欢迎订阅</h2>
+]]>
+            </content:encoded>
+        </item>
+        <item>
+            <title>
                 <![CDATA[第 001 期: Vite release 5.0]]>
             </title>
             <link>
@@ -56,29 +79,6 @@
 ]]>
             </content:encoded>
             <enclosure url="https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg" length="0" type="image/jpg"/>
-        </item>
-        <item>
-            <title>
-                <![CDATA[第 002 期: null]]>
-            </title>
-            <link>
-                https://campcc.github.io/weekly/issue-002
-            </link>
-            <guid>
-                https://campcc.github.io/weekly/issue-002
-            </guid>
-            <pubDate>
-                Wed, 22 Nov 2023 16:00:00 GMT
-            </pubDate>
-            <content:encoded>
-                <![CDATA[<blockquote>
-<p>❤️ 欢迎打开新的一期 FE News Weekly 周刊, 这是第 002 期, 发表于 2023/11/23, 下面为您带来本周最新的前端技术新闻 &amp; 优质文章推荐。</p>
-</blockquote>
-<h2>技术新闻</h2>
-<h2>优质文章</h2>
-<h2>欢迎订阅</h2>
-]]>
-            </content:encoded>
         </item>
     </channel>
 </rss>
