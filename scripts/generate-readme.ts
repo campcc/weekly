@@ -39,6 +39,7 @@ const readme = `# FE News Weekly ❤️
 
 - [Github](https://github.com/campcc/weekly)
 - [RSS](https://campcc.github.io/weekly/public/rss.xml)
+- [掘金专栏](https://juejin.cn/column/7304558952179023908)
 
 ## 往期周刊
 ${latestPosts}`;

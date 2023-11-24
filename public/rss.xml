@@ -11,7 +11,7 @@
             FE News Weekly 前端技术新闻周刊
         </description>
         <lastBuildDate>
-            Fri, 24 Nov 2023 01:21:23 GMT
+            Fri, 24 Nov 2023 01:46:19 GMT
         </lastBuildDate>
         <docs>
             https://validator.w3.org/feed/docs/rss2.html
@@ -53,6 +53,11 @@
 <h2>技术新闻</h2>
 <h2>优质文章</h2>
 <h2>欢迎订阅</h2>
+<ul>
+<li><a href="https://campcc.github.io/weekly/public/rss.xml">RSS</a></li>
+<li><a href="https://juejin.cn/column/7304558952179023908">掘金专栏</a></li>
+</ul>
+<p>（完）</p>
 ]]>
             </content:encoded>
             <enclosure url="https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg" length="0" type="image/jpg"/>

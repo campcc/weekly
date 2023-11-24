@@ -28,6 +28,7 @@
 
 - [Github](https://github.com/campcc/weekly)
 - [RSS](https://campcc.github.io/weekly/public/rss.xml)
+- [掘金专栏](https://juejin.cn/column/7304558952179023908)
 
 ## 往期周刊
 - [Weekly 第 001 期: Vite release 5.0](https://campcc.github.io/weekly/docs/issue-001)

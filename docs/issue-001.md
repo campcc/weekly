@@ -11,3 +11,8 @@ publishedAt: 2023/11/27
 ## 优质文章
 
 ## 欢迎订阅
+
+- [RSS](https://campcc.github.io/weekly/public/rss.xml)
+- [掘金专栏](https://juejin.cn/column/7304558952179023908)
+
+（完）
