@@ -26,8 +26,8 @@
 
 ## 如何订阅？
 
-- [Github](https://github.com/campcc/weekly)
-- [RSS](https://campcc.github.io/weekly/public/rss.xml)
+- [Github](https://github.com/campcc/weekly), Watch 本项目, 周刊有更新时会收到 [Github Notification](https://github.com/notifications)
+- [RSS](https://campcc.github.io/weekly/public/rss.xml), 通过 Reader 等 RSS 工具进行订阅
 
 ## 往期周刊
 - [Weekly 第 001 期: Vite release 5.0](https://campcc.github.io/weekly/docs/issue-001)
