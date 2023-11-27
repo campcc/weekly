@@ -1,6 +1,6 @@
 ---
 title: 字节发布 Rsbuild 0.1、清华大学未来十大变革科技榜单、腾讯 ISUX 「十一月」行业设计趋势速递、TypeScript 5.3、30 岁的 30 条建议
-titleImage: https://img.alicdn.com/imgextra/i2/O1CN013IYhe31M3AgB9FQll_!!6000000001378-0-tps-1920-1280.jpg_1200x1200.jpg
+titleImage: https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-001.png
 publishedAt: 2023/11/27
 ---
 
@@ -26,5 +26,6 @@ publishedAt: 2023/11/27
 
 ## 欢迎订阅
 
+- [Github](https://github.com/campcc/weekly)
 - [RSS](https://campcc.github.io/weekly/public/rss.xml)
 - [掘金专栏](https://juejin.cn/column/7304558952179023908)
