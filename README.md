@@ -31,4 +31,4 @@
 - [掘金专栏](https://juejin.cn/column/7304558952179023908)
 
 ## 往期周刊
-- [Weekly 第 001 期: Vite release 5.0](https://campcc.github.io/weekly/docs/issue-001)
+- [Weekly 第 001 期: 字节发布 Rsbuild 0.1、清华大学未来十大变革科技榜单、腾讯 ISUX 「十一月」行业设计趋势速递、TypeScript 5.3、30 岁的 30 条建议](https://campcc.github.io/weekly/docs/issue-001)
