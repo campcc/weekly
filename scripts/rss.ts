@@ -12,7 +12,7 @@ const files = fs.readdirSync('docs');
 export const posts = files.map((file) => {
   const markdown = fs.readFileSync(path.join('docs', file), 'utf8');
   const { data, content } = matter(markdown);
-  const result = md.render(content);
+  const result = md.render(content).replace(/<p>&lt;img.*?&gt;<\/p>/g, '');
   const currentDocNum = file.match(/issue-(\d+)\.md/)?.[1];
   const url = `https://campcc.github.io/weekly/issue-${currentDocNum}`;
   return {

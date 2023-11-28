@@ -4,7 +4,7 @@ titleImage: https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-0
 publishedAt: 2023/11/27
 ---
 
-![FE News Weekly 001](https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-001.png)
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-001.png" width="500" />
 
 > 欢迎打开新的一期 FE News Weekly, 这是第 001 期, 发表于 2023/11/27, 下面为您带来本周最新的前端技术新闻 & 优质文章 ⚡️
 

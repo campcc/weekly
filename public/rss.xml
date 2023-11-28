@@ -11,7 +11,7 @@
             FE News Weekly 前端技术新闻周刊
         </description>
         <lastBuildDate>
-            Tue, 28 Nov 2023 02:03:54 GMT
+            Tue, 28 Nov 2023 02:15:14 GMT
         </lastBuildDate>
         <docs>
             https://validator.w3.org/feed/docs/rss2.html
@@ -47,7 +47,7 @@
                 Sun, 26 Nov 2023 16:00:00 GMT
             </pubDate>
             <content:encoded>
-                <![CDATA[<p><img src="https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-001.png" alt="FE News Weekly 001"></p>
+                <![CDATA[
 <blockquote>
 <p>欢迎打开新的一期 FE News Weekly, 这是第 001 期, 发表于 2023/11/27, 下面为您带来本周最新的前端技术新闻 &amp; 优质文章 ⚡️</p>
 </blockquote>
