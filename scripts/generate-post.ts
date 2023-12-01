@@ -1,10 +1,14 @@
 import fs from 'fs';
 import dayjs from 'dayjs';
 import { getNextDocNum } from './utils';
+import { posts } from './rss';
 
-const publishedAt = dayjs().format('YYYY/MM/DD');
+const latestPost = posts.at(-1);
 const nextDocNum = getNextDocNum();
-const filename = `docs/issue-${nextDocNum}.md`;
+const nextDocname = `docs/issue-${nextDocNum}.md`;
+const publishedAt = dayjs(latestPost?.publishedAt)
+  .add(1, 'week')
+  .format('YYYY/MM/DD');
 
 const post = `---
 title: 
@@ -27,4 +31,4 @@ publishedAt: ${publishedAt}
 - [掘金专栏](https://juejin.cn/column/7304558952179023908)
 `;
 
-fs.writeFileSync(filename, post, 'utf-8');
+fs.writeFileSync(nextDocname, post, 'utf-8');

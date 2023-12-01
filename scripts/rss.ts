@@ -23,6 +23,7 @@ export const posts = files.map((file) => {
     date: dayjs(data?.publishedAt).toDate(),
     content: result,
     url,
+    publishedAt: data?.publishedAt,
   };
 });
 
