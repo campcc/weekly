@@ -24,6 +24,8 @@ publishedAt: ${publishedAt}
 
 ## 优质文章
 
+## 工具资源
+
 ## 欢迎订阅
 
 - [Github](https://github.com/campcc/weekly)

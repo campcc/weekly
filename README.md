@@ -31,4 +31,5 @@
 - [掘金专栏](https://juejin.cn/column/7304558952179023908)
 
 ## 往期周刊
+- [Weekly 第 002 期: null](https://campcc.github.io/weekly/docs/issue-002)
 - [Weekly 第 001 期: 字节 Rsbuild 0.1、清华大学未来十大变革科技榜单、腾讯 ISUX 设计趋势速递、TypeScript 5.3](https://campcc.github.io/weekly/docs/issue-001)
