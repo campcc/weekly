@@ -12,7 +12,7 @@ const publishedAt = dayjs(latestPost?.publishedAt)
 
 const post = `---
 title: 
-titleImage: 
+titleImage: https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-${nextDocNum}.png
 publishedAt: ${publishedAt}
 ---
 

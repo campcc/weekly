@@ -1,6 +1,6 @@
 ---
 title: Biome wins $20k、XState 5、Astro 4、Vectorizer.ai、编程语言发展史、10s 生成 LOGO
-titleImage:
+titleImage: https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-002.png
 publishedAt: 2023/12/04
 ---
 

@@ -11,7 +11,7 @@
             FE News Weekly 前端技术新闻周刊
         </description>
         <lastBuildDate>
-            Mon, 04 Dec 2023 02:55:16 GMT
+            Mon, 04 Dec 2023 03:15:06 GMT
         </lastBuildDate>
         <docs>
             https://validator.w3.org/feed/docs/rss2.html
@@ -82,6 +82,7 @@
 </ul>
 ]]>
             </content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-002.png" length="0" type="image/png"/>
         </item>
         <item>
             <title>
