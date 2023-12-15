@@ -12,21 +12,15 @@
 
 **周刊的内容输入从哪里来？**
 
-技术新闻和优质文章的输入包括但不限于：
-
-- [Github Trending](https://github.com/trending)
-- [Echo JS](https://www.echojs.com/)
-- [JavaScript Weekly](https://javascriptweekly.com/)
-- [CSS Weekly](https://css-weekly.com/)
-- [W3C News & Bolg](https://www.w3.org/news-events/)
-- [MDH Weekly](https://mdhweekly.com/)
-- [科技爱好者周刊](https://github.com/ruanyf/weekly)
-- [Frontend Focus](https://frontendfoc.us/)
-- 美团、字节、腾讯和阿里等大厂优质的技术博客以及内部优质的周刊、期刊和月刊
+技术新闻和优质文章的输入包括但不限于：[Github Trending](https://github.com/trending)、[Echo JS](https://www.echojs.com/)、[JavaScript Weekly](https://javascriptweekly.com/)、
+[CSS Weekly](https://css-weekly.com/)、[W3C News & Bolg](https://www.w3.org/news-events/)、[MDH Weekly](https://mdhweekly.com/)、[科技爱好者周刊](https://github.com/ruanyf/weekly)、
+[Frontend Focus](https://frontendfoc.us/)、美团、字节、腾讯、阿里等优质的技术博客以及美团内部优质的周刊、期刊和月刊等。
 
 **Make a friend**
 
-<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/wechat.png" width="100" height="140" />
+如果觉得周刊对你有帮助，可以交个朋友 ❤️
+
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/wechat.png" width="200" height="280" />
 
 ## 如何订阅？
 
