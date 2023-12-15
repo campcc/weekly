@@ -20,7 +20,7 @@
 
 如果觉得周刊对你有帮助，可以交个朋友 ❤️
 
-<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/wechat.png" width="200" height="280" />
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/wechat.png" width="200" height="300" />
 
 ## 如何订阅？
 
