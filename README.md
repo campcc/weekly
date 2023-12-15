@@ -1,10 +1,8 @@
 # FE News Weekly ❤️
 
-<link rel="icon" href="favicon.ico" type="image/x-icon" />
-
-<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/logo.png" width="130" height="64" />
-
 🚀 前端技术新闻周刊，每周一早上 11:00 发布。
+
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/logo.png" width="65" height="32" />
 
 **为什么写周刊？**
 
@@ -14,15 +12,21 @@
 
 **周刊的内容输入从哪里来？**
 
-技术新闻和优质文章的输入包括但不限于：[Github Trending](https://github.com/trending)、[Echo JS](https://www.echojs.com/)、[JavaScript Weekly](https://javascriptweekly.com/)、
-[CSS Weekly](https://css-weekly.com/)、[W3C News & Bolg](https://www.w3.org/news-events/)、[MDH Weekly](https://mdhweekly.com/)、[科技爱好者周刊](https://github.com/ruanyf/weekly)、
-[Frontend Focus](https://frontendfoc.us/)、美团、字节、腾讯、阿里等优质的技术博客以及美团内部优质的周刊、期刊和月刊等。
+技术新闻和优质文章的输入包括但不限于：
 
-**Buy Me a Coffee**
+- [Github Trending](https://github.com/trending)
+- [Echo JS](https://www.echojs.com/)
+- [JavaScript Weekly](https://javascriptweekly.com/)
+- [CSS Weekly](https://css-weekly.com/)
+- [W3C News & Bolg](https://www.w3.org/news-events/)
+- [MDH Weekly](https://mdhweekly.com/)
+- [科技爱好者周刊](https://github.com/ruanyf/weekly)
+- [Frontend Focus](https://frontendfoc.us/)
+- 美团、字节、腾讯和阿里等大厂优质的技术博客以及内部优质的周刊、期刊和月刊
 
-如果觉得周刊对你有帮助，可以请我喝杯咖啡 ❤️
+**Make a friend**
 
-<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/coffee.png" width="160" height="160" />
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/wechat.png" width="100" height="140" />
 
 ## 如何订阅？
 
@@ -31,6 +35,7 @@
 - [掘金专栏](https://juejin.cn/column/7304558952179023908)
 
 ## 往期周刊
+- [Weekly 第 004 期: CSS Wrapped 2023、](https://campcc.github.io/weekly/docs/issue-004)
 - [Weekly 第 003 期: RN 0.73、VSCode November 2023、StyleX 开源、Astro 4.0、Bento box 设计趋势、TinyLD](https://campcc.github.io/weekly/docs/issue-003)
 - [Weekly 第 002 期: Biome wins $20k、XState 5、Astro 4、Vectorizer.ai、编程语言发展史、10s 生成 LOGO](https://campcc.github.io/weekly/docs/issue-002)
 - [Weekly 第 001 期: 字节 Rsbuild 0.1、清华大学未来十大变革科技榜单、腾讯 ISUX 设计趋势速递、TypeScript 5.3](https://campcc.github.io/weekly/docs/issue-001)
