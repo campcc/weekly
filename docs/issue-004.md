@@ -14,8 +14,7 @@ publishedAt: 2023/12/18
 - [Safari 发布 17.2](https://webkit.org/blog/14787/webkit-features-in-safari-17-2/) Safari 17.2 版本包含了 39 个新特性和 169 个问题修复，其中新特性包括 CSS 嵌套、新的尺寸单位 rcap、rex、ric 和 rch、CSS Counters、Mask border、预加载响应式图片，还包括对 JavaScript 新特性的支持，如 BigInt 和 Intl.DisplayNames，可选链和空值合并等；
 - [The State of Web Development | 2023](https://www.netlify.com/pdf/the-state-of-web-development-2023.pdf/?submissionGuid=505ab3ff-88c8-423f-84e6-ad12f14123ba) Netlify 发布 2023 年 Web 开发者调查报告，大家比较关注的前端框架部分，React 仍是目前使用最多的前端框架，但 Astro 成为了今年最受开发者欢迎的框架，Tailwind CSS 势头很猛，使用率上几乎接近 Bootstrap，成为今年最受欢迎的 CSS 框架，Monorepo 框架上，Nx 和 Lerna 使用率不相上下，但 Turborepo 成为今年最受欢迎的 Monorepo 框架；
 - [Oxlint 已经可用](https://oxc-project.github.io/blog/2023-12-12-announcing-oxlint.html) Oxlint 是一个 JavaScript linter，旨在捕捉错误或无用代码，而无需任何默认配置。它比 ESLint 快 50-100 倍，在实际场景中，Shopify 报告称他们之前需要 75 分钟的 ESLint 运行现在只需要 10 秒；
-- [Ant Design Mini 支持微信小程序](https://mp.weixin.qq.com/s/eyAd77KBjpyowz35DO3EXQ) Ant Design Mini 是原支付宝小程序 UI 组件库，目前已经支持微信小程序，当前版本还处于 Beta 阶段，完成了 16 个核心组件的适配；
-- []()
+- [Ant Design Mini 支持微信小程序](https://mp.weixin.qq.com/s/eyAd77KBjpyowz35DO3EXQ) Ant Design Mini 是原支付宝小程序 UI 组件库，目前已经支持微信小程序，当前版本还处于 Beta 阶段，完成了 16 个核心组件的适配.
 
 ## 优质文章
 
