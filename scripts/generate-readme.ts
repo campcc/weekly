@@ -11,11 +11,9 @@ const latestPosts = posts
 
 const readme = `# FE News Weekly ❤️
 
-<link rel="icon" href="favicon.ico" type="image/x-icon" />
+🚀 前端技术新闻周刊，每周一早上 11:00 发布。
 
 <img src="https://raw.githubusercontent.com/campcc/weekly/main/images/logo.png" width="130" height="64" />
-
-🚀 前端技术新闻周刊，每周一早上 11:00 发布。
 
 **为什么写周刊？**
 
@@ -29,11 +27,11 @@ const readme = `# FE News Weekly ❤️
 [CSS Weekly](https://css-weekly.com/)、[W3C News & Bolg](https://www.w3.org/news-events/)、[MDH Weekly](https://mdhweekly.com/)、[科技爱好者周刊](https://github.com/ruanyf/weekly)、
 [Frontend Focus](https://frontendfoc.us/)、美团、字节、腾讯、阿里等优质的技术博客以及美团内部优质的周刊、期刊和月刊等。
 
-**Buy Me a Coffee**
+**Make a friend**
 
-如果觉得周刊对你有帮助，可以请我喝杯咖啡 ❤️
+如果觉得周刊对你有帮助，可以交个朋友 ❤️
 
-<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/coffee.png" width="160" height="160" />
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/wechat.png" width="200" height="300" />
 
 ## 如何订阅？
 

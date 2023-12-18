@@ -20,7 +20,7 @@
 
 如果觉得周刊对你有帮助，可以交个朋友 ❤️
 
-<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/wechat.png" width="200" />
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/wechat.png" width="200" height="300" />
 
 ## 如何订阅？
 
@@ -29,6 +29,7 @@
 - [掘金专栏](https://juejin.cn/column/7304558952179023908)
 
 ## 往期周刊
+- [Weekly 第 004 期: CSS Wrapped 2023、Safari 17.2、Netlify 2023 调查报告、Oxlint、Antd Mini 微信小程序](https://campcc.github.io/weekly/docs/issue-004)
 - [Weekly 第 003 期: RN 0.73、VSCode November 2023、StyleX 开源、Astro 4.0、Bento box 设计趋势、TinyLD](https://campcc.github.io/weekly/docs/issue-003)
 - [Weekly 第 002 期: Biome wins $20k、XState 5、Astro 4、Vectorizer.ai、编程语言发展史、10s 生成 LOGO](https://campcc.github.io/weekly/docs/issue-002)
 - [Weekly 第 001 期: 字节 Rsbuild 0.1、清华大学未来十大变革科技榜单、腾讯 ISUX 设计趋势速递、TypeScript 5.3](https://campcc.github.io/weekly/docs/issue-001)
