@@ -9,7 +9,38 @@ const latestPosts = posts
   ).join(`
 `);
 
-const readme = `# FE News Weekly ❤️
+const readme = `
+# FE News Weekly ❤️
+
+🚀 FE News Weekly, published every Monday at 11:00 AM.
+
+![FE News Weekly Logo](https://raw.githubusercontent.com/campcc/weekly/main/images/logo.png)
+
+**Why create a weekly?**
+
+In this era of information overload, front-end technology is rapidly evolving, with new knowledge, tools, and frameworks emerging daily. As developers, we need to continuously learn and progress to keep pace with the times. However, time is limited, and everyone is busy. It's not possible to keep up with all the news, information, and blogs every day. Through this weekly, I hope to help everyone save time and improve efficiency. I will filter the most cutting-edge and valuable front-end technology news for everyone, helping you quickly understand the technological trends of the week.
+
+**Where does the newsletter content come from?**
+
+The sources for technology news and quality articles include, but are not limited to: [Github Trending](https://github.com/trending), [Echo JS](https://www.echojs.com/), [JavaScript Weekly](https://javascriptweekly.com/), [CSS Weekly](https://css-weekly.com/), [W3C News & Blog](https://www.w3.org/news-events/), [MDH Weekly](https://mdhweekly.com/), [Tech Enthusiasts' Weekly](https://github.com/ruanyf/weekly), [Frontend Focus](https://frontendfoc.us/), and high-quality tech blogs from companies like Meituan, ByteDance, Tencent, Alibaba, as well as Meituan's internal quality newsletters, journals, and monthly magazines.
+
+**Make a friend**
+
+If you find the weekly helpful, feel free to make friends with me ❤️
+
+![WeChat QR Code](https://raw.githubusercontent.com/campcc/weekly/main/images/wechat.png)
+
+#### How to Subscribe?
+
+- [Github](https://github.com/campcc/weekly)
+- [RSS](https://campcc.github.io/weekly/public/rss.xml)
+- [Juejin Column](https://juejin.cn/column/7304558952179023908)
+
+## Past Posts
+${latestPosts}
+`;
+
+const readmeZH = `# FE News Weekly ❤️
 
 🚀 前端技术新闻周刊，每周一早上 11:00 发布。
 
@@ -42,4 +73,5 @@ const readme = `# FE News Weekly ❤️
 ## 往期周刊
 ${latestPosts}`;
 
+fs.writeFileSync('README_ZH.md', readmeZH, 'utf-8');
 fs.writeFileSync('README.md', readme, 'utf-8');
