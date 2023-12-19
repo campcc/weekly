@@ -6,13 +6,14 @@ import { posts } from './rss';
 const latestPost = posts.at(-1);
 const nextDocNum = getNextDocNum();
 const nextDocname = `docs/issue-${nextDocNum}.md`;
+const titleImage = `https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-${nextDocNum}.png`;
 const publishedAt = dayjs(latestPost?.publishedAt)
   .add(1, 'week')
   .format('YYYY/MM/DD');
 
 const post = `---
 title: 
-titleImage: https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-${nextDocNum}.png
+titleImage: ${titleImage}
 publishedAt: ${publishedAt}
 ---
 
