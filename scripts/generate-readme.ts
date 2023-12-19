@@ -93,15 +93,15 @@ ${description[lang]}
 
 ${images.logo}
 
-**${purpose[lang]}**
+## ${purpose[lang]}
 
 ${purposeDescription[lang]}
 
-**${source[lang]}**
+## ${source[lang]}
 
 ${sourceDescription[lang]}
 
-**${friend[lang]}**
+## ${friend[lang]}
 
 ${friendDescription[lang]}
 
