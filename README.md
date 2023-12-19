@@ -18,6 +18,8 @@ The sources for technology news and quality articles include, but are not limite
 
 If you find the weekly helpful, feel free to make friends with me ❤️
 
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/wechat.png" width="200" height="300" />
+
 ## How to subscribe？
 
 - [Github](https://github.com/campcc/weekly)

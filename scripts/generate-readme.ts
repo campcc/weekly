@@ -105,6 +105,8 @@ ${sourceDescription[lang]}
 
 ${friendDescription[lang]}
 
+${images.wechat}
+
 ## ${subscribe[lang]}
 
 - ${subscribeLinks.github[lang]}
