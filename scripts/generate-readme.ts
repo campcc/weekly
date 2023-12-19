@@ -86,12 +86,12 @@ const pastPosts = {
 
 function generateReadme(lang: string) {
   return `# ${title[lang]}
+
+${images.logo}
     
 ${language[lang]}
 
 ${description[lang]}
-
-${images.logo}
 
 ## ${purpose[lang]}
 
