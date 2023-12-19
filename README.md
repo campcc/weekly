@@ -1,9 +1,11 @@
 
 # FE News Weekly ❤️
 
+English | [中文](README_ZH.md)
+
 🚀 FE News Weekly, published every Monday at 11:00 AM.
 
-![FE News Weekly Logo](https://raw.githubusercontent.com/campcc/weekly/main/images/logo.png)
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/logo.png" width="130" height="64" />
 
 **Why create a weekly?**
 

@@ -12,9 +12,11 @@ const latestPosts = posts
 const readme = `
 # FE News Weekly ❤️
 
+English | [中文](README_ZH.md)
+
 🚀 FE News Weekly, published every Monday at 11:00 AM.
 
-![FE News Weekly Logo](https://raw.githubusercontent.com/campcc/weekly/main/images/logo.png)
+<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/logo.png" width="130" height="64" />
 
 **Why create a weekly?**
 
@@ -41,6 +43,8 @@ ${latestPosts}
 `;
 
 const readmeZH = `# FE News Weekly ❤️
+
+[English](README.md) | 中文
 
 🚀 前端技术新闻周刊，每周一早上 11:00 发布。
 

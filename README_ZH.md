@@ -1,5 +1,7 @@
 # FE News Weekly ❤️
 
+[English](README.md) | 中文
+
 🚀 前端技术新闻周刊，每周一早上 11:00 发布。
 
 <img src="https://raw.githubusercontent.com/campcc/weekly/main/images/logo.png" width="130" height="64" />
