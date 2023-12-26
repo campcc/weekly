@@ -13,7 +13,7 @@ publishedAt: 2023/12/25
 - [Firefox 发布 121 版本](https://www.mozilla.org/en-US/firefox/121.0/releasenotes/) 新版本支持 :has() 选择器、iframe 延迟加载、text-wrap 属性、Date.parse 等，值得一提的是， Firefox 121 发布后，现在所有主流浏览器都支持 :has() 选择器了；
 - [Web Development in 2023: JavaScript Still Rules, AI Emerges](https://thenewstack.io/web-development-in-2023-javascript-still-rules-ai-emerges/) 2023 年的 Web 开发趋势调查，包括 Next.js、Astro 和 Jamstack 的持续发展，以及AI 工具和 CDEs 的应用，WebAssembly 在 Web 开发中的稳步发展。报告显示 JavaScript 仍然是主导语言，人工智能已经成为开发者工具包的一部分，开放网络和 Web 标准也在不断改进；
 - [Adobe 放弃收购 Figma](https://www.figma.com/blog/figma-adobe-abandon-proposed-merger/) 由于监管的拦路虎，Adobe 最终放弃收购 Figma，Figma 是欧洲用户界面（UI）工具的独角兽，是一个网上协作设计平台，对很多企业都起到关键作用，本次收购失败，Adboe 将向 Figma 支付 10 亿美元的反向分手费；
-- [Sveltekit 发布 2.0](https://svelte.dev/blog/sveltekit-2) Sveltekit 是一个官方用于构建 Svelte 应用程序的框架2，.0 是一个增量版本，增加了对新发布的 Vite 5 的支持，引入了一个名为 "shallow routing" 的新功能；
+- [Sveltekit 发布 2.0](https://svelte.dev/blog/sveltekit-2) Sveltekit 是一个官方用于构建 Svelte 应用程序的框架，Svelete 社区开发了许多出色的 UI 库，如 [Skeleton](https://www.skeleton.dev/)、[shadcn-svelte](https://www.shadcn-svelte.com/)、[Melt UI](https://melt-ui.com/)、[Flowbite Svelte](https://flowbite-svelte.com/)、[daisyUI](https://daisyui.com/) 等，2.0 是一个增量版本，增加了对新发布的 Vite 5 的支持，引入了一个名为 "shallow routing" 的新功能；
 - [date-fns 发布 v3](https://blog.date-fns.org/v3-is-out/) date-fns V3 版本正式发布，新版本带来了许多特性，包括完全采用 TypeScript 重构、移除了参数检查和转换代码、字符串日期参数重新回归、支持 Date 类扩展、Node.js 现在支持 ESM、通过命名导出进行导出、新的扁平化库结构改善了 ESM/Deno 的开发体验、不再支持IE等。
 
 ## 优质文章
