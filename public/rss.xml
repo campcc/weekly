@@ -11,7 +11,7 @@
             FE News Weekly 前端技术新闻周刊
         </description>
         <lastBuildDate>
-            Tue, 02 Jan 2024 02:06:38 GMT
+            Tue, 02 Jan 2024 05:40:48 GMT
         </lastBuildDate>
         <docs>
             https://validator.w3.org/feed/docs/rss2.html
@@ -33,6 +33,105 @@
         <copyright>
             FE News Weekly since 2023
         </copyright>
+        <item>
+            <title>
+                <![CDATA[第 006 期: OneFlow 技术年货、Ant Design Web3 发布、V8 新编译器、NodeJS 2023 Performance]]>
+            </title>
+            <link>
+                https://campcc.github.io/weekly/issue-006
+            </link>
+            <guid>
+                https://campcc.github.io/weekly/issue-006
+            </guid>
+            <pubDate>
+                Mon, 01 Jan 2024 16:00:00 GMT
+            </pubDate>
+            <content:encoded>
+                <![CDATA[
+<blockquote>
+<p>欢迎打开新的一期 FE News Weekly, 这是第 006 期, 发表于 2024/01/02, 下面为您带来本周最新的前端技术新闻 &amp; 优质文章 ⚡️</p>
+</blockquote>
+<h2>技术新闻</h2>
+<ul>
+<li><a href="https://mp.weixin.qq.com/s/LucD-KkRHBGg-u6Sc8PuOw">OneFlow 免费大模型电子书</a> OneFlow 社区发布了 100 多篇与 ChatGPT 相关的文章，制作成一份超过 800 页的电子书，免费赠送给每一位用户。这份电子书分为七大板块，包括揭秘 ChatGPT 技术原理、语言大模型的演进、开源语言大模型的崛起、语言大模型的预训练、微调与推理、AI 底层软硬件协同优化、OpenAI 的通用人工智能洞察以及 AI 的应用与未来；</li>
+<li><a href="https://mp.weixin.qq.com/s/OPGftCEiElt8A3TqJFfB8Q">Ant Design Web3 发布 1.0</a> 基于 Ant Design 的 Web3 React 开源组件库正式发布，提供了一系列的组件，可以快速构建去中心化应用（DApp）；</li>
+<li><a href="https://v8.dev/blog/holiday-season-2023">V8 is Faster and Safer than Ever</a> V8 推出了 Maglev 和 Turboshaft 两种新的编译器，大大提高了性能和编译速度，编译器亮点包括，Turboshaft 新架构，新的 JavaScript 和 WebAssembly 功能支持，引入 WebAssembly 垃圾回收(WasmGC)，沙箱、模糊测试和控制流完整性(CFI)等；</li>
+<li><a href="https://blog.rafaelgss.dev/state-of-nodejs-performance-2023">State of Node.js Performance 2023</a> Node.js 发布 2023 年性能概况，今年 Node.js 带来了诸多性能改进，包括属性访问、URL 解析、缓冲区/文本编码和解码、启动/进程生命周期时间以及 EventTarget 等。</li>
+</ul>
+<h2>优质文章</h2>
+<ul>
+<li><a href="https://evertpot.com/node-changelog-cli-tool/">Building a simple CLI tool with modern Node.js</a> 本文介绍了如何用 Node.js 的标准库，不加载任何外部模块的情况下，写一个 “Node Changelog CLI Tool” 命令行工具，支持查看项目的更新日志，以及特定版本或特定日期范围内的更新日志；</li>
+<li><a href="https://mp.weixin.qq.com/s/-8eyuccxtnomVLT5p8YK6g">WebContainer 在支付宝云开发的实践</a> 本文介绍了在支付宝云开发中使用的 WebContainer 技术以及对语言服务的优化和挑战。通过 WebContainer 运行 Node.js 的能力将完整的语言服务运行在浏览器上，并通过 CodeBlitz 和 Opensumi 的模块化和高可定制性对 IDE 的插件逻辑进行调整和修改。同时，通过 WebContainer 提供的 Node.js 能力在浏览器中安装 node_modules 依赖，实现对第三方依赖的语法提示，提供类似于本地开发的体验;</li>
+<li><a href="https://lebohire.com/posts/trevor-indrek-lasn/frontend-security-checklist-proactive-measures-and-best-practices-for-all-frameworks">Frontend Security Checklist: Proactive Measures and Best Practices for All Frameworks</a> 本文概述了前端应用程序安全的概况，深入探讨了在 React、Angular 和 Vue.js 等各种前端框架中遇到的常见漏洞，如 XSS、CSP、CSRF、IDOR、Scrape Shield、DDoS 等，不仅提供了对这些漏洞的理解，还提供实用的解决方案和代码示例，以有效地减轻它们的影响；</li>
+<li><a href="https://mp.weixin.qq.com/s/L387QjYFE7edrKtk1kMUeA">携程商旅在 Atomic CSS 下的探索</a> 本文介绍了携程商旅在 Atomic CSS 下的探索，以及 Atomic CSS 的好处和应用。通过使用 Atomic CSS，可以减少样式文件体积，提升页面加载性能，文章还介绍了 Facebook 最近开源的 Atomic CSS 解决方案 stylex，以及其在项目中的应用。最后，介绍了如何使用 stylex 库来创建自定义主题的按钮，并展望了 Css-In-Js 解决方案的未来发展；</li>
+<li><a href="https://www.builder.io/blog/structured-clone">Deep Cloning Objects in JavaScript, the Modern Way</a> 本文介绍了 JavaScript 中的一种深度克隆技术——Structured Clone，原理是通过递归复制对象的所有属性来实现深度克隆，优点是可以处理循环引用和复杂的数据类型，但是也有一些限制，比如不能复制函数和错误对象。文章还介绍了如何使用 Structured Clone，以及它的一些实际应用场景，比如在 Web Workers 中传递数据，以及在 IndexedDB 中存储和检索数据。</li>
+</ul>
+<h2>工具资源</h2>
+<ul>
+<li><a href="https://frontendhistory.com/">The history of Frontend</a> 一个站点，记录了 1990 ~ 2023 前端技术的发展史；</li>
+<li><a href="https://rspress.dev/zh/">Rspress</a> 一个基于 Rspack 的静态站点生成器，字节 Web Infra 团队出品；</li>
+<li><a href="https://github.com/Teamlinker/Teamlinker/blob/main/README-ZH-CN.md">Teamlinker</a> 一个开源的团队协作平台，包含项目、Wiki、日历、会议、聊天和网盘等功能。</li>
+</ul>
+<h2>欢迎订阅</h2>
+<ul>
+<li><a href="https://github.com/campcc/weekly">Github</a></li>
+<li><a href="https://campcc.github.io/weekly/public/rss.xml">RSS</a></li>
+<li><a href="https://juejin.cn/column/7304558952179023908">掘金专栏</a></li>
+</ul>
+]]>
+            </content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-006.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title>
+                <![CDATA[第 005 期: Firefox 121、Web Development in 2023、Adobe 放弃收购 Figma、date-fns V3、Sveltekit 2]]>
+            </title>
+            <link>
+                https://campcc.github.io/weekly/issue-005
+            </link>
+            <guid>
+                https://campcc.github.io/weekly/issue-005
+            </guid>
+            <pubDate>
+                Sun, 24 Dec 2023 16:00:00 GMT
+            </pubDate>
+            <content:encoded>
+                <![CDATA[
+<blockquote>
+<p>欢迎打开新的一期 FE News Weekly, 这是第 005 期, 发表于 2023/12/25, 下面为您带来本周最新的前端技术新闻 &amp; 优质文章 ⚡️</p>
+</blockquote>
+<h2>技术新闻</h2>
+<ul>
+<li><a href="https://www.mozilla.org/en-US/firefox/121.0/releasenotes/">Firefox 发布 121 版本</a> 新版本支持 :has() 选择器、iframe 延迟加载、text-wrap 属性、Date.parse 等，值得一提的是， Firefox 121 发布后，现在所有主流浏览器都支持 :has() 选择器了；</li>
+<li><a href="https://thenewstack.io/web-development-in-2023-javascript-still-rules-ai-emerges/">Web Development in 2023: JavaScript Still Rules, AI Emerges</a> 2023 年的 Web 开发趋势调查，包括 Next.js、Astro 和 Jamstack 的持续发展，以及AI 工具和 CDEs 的应用，WebAssembly 在 Web 开发中的稳步发展。报告显示 JavaScript 仍然是主导语言，人工智能已经成为开发者工具包的一部分，开放网络和 Web 标准也在不断改进；</li>
+<li><a href="https://www.figma.com/blog/figma-adobe-abandon-proposed-merger/">Adobe 放弃收购 Figma</a> 由于监管的拦路虎，Adobe 最终放弃收购 Figma，Figma 是欧洲用户界面（UI）工具的独角兽，是一个网上协作设计平台，对很多企业都起到关键作用，本次收购失败，Adboe 将向 Figma 支付 10 亿美元的反向分手费；</li>
+<li><a href="https://svelte.dev/blog/sveltekit-2">Sveltekit 发布 2.0</a> Sveltekit 是一个官方用于构建 Svelte 应用程序的框架，Svelete 社区开发了许多出色的 UI 库，如 <a href="https://www.skeleton.dev/">Skeleton</a>、<a href="https://www.shadcn-svelte.com/">shadcn-svelte</a>、<a href="https://melt-ui.com/">Melt UI</a>、<a href="https://flowbite-svelte.com/">Flowbite Svelte</a>、<a href="https://daisyui.com/">daisyUI</a> 等，2.0 是一个增量版本，增加了对新发布的 Vite 5 的支持，引入了一个名为 &quot;shallow routing&quot; 的新功能；</li>
+<li><a href="https://blog.date-fns.org/v3-is-out/">date-fns 发布 v3</a> date-fns V3 版本正式发布，新版本带来了许多特性，包括完全采用 TypeScript 重构、移除了参数检查和转换代码、字符串日期参数重新回归、支持 Date 类扩展、Node.js 现在支持 ESM、通过命名导出进行导出、新的扁平化库结构改善了 ESM/Deno 的开发体验、不再支持IE等。</li>
+</ul>
+<h2>优质文章</h2>
+<ul>
+<li><a href="https://blog.bitsrc.io/should-you-use-bun-or-node-js-or-deno-in-2024-b7c21da085ba">Should you use Bun or Node.js or Deno in 2024?</a> 2024 该如何选择选择 JavaScript 运行时？了解 Bun、Node.js 和 Deno 可以简化决策过程：如果你更看重稳定可靠的生态系统，多年来被试验和验证过的话，你可以选择 Node.js；如果你更注重安全性和最新的编程环境功能，并且需要内置的 TypeScript 支持，建议使用 Deno；如果你需要高速执行，特别是在使用 JavaScript 或 TypeScript 时，那么 Bun 可能更适合你；</li>
+<li><a href="https://www.htmhell.dev/adventcalendar/2023/14/">Getting started with Web Performance</a> 本文探讨了 Web 性能是什么？介绍了常见的衡量指标如 LCP、INP、CLS 等以及如何提高 Web 性能的 10 个技巧；</li>
+<li><a href="https://mp.weixin.qq.com/s/9U7PKSt60AbRx7Ngud0Qxg">AIOps在美团的探索与实践——事件管理篇</a> 本文介绍了美团服务运维团队在事件管理领域中探索和实践 AIOps 的应用，包括智能日志检测、智能化变更识别、异常拓扑图计算和指标多维度根因定位的方法，以及相似事件推荐算法和文本向量化算法，最后，团队计划进一步探索智能日志检测和智能化变更识别的可能性；</li>
+<li><a href="https://mp.weixin.qq.com/s/jK2j281Ymo2vimY8DyL6pw">性能翻倍！京东亿级体量小程序优化实践</a> 本文介绍了京东购物小程序和微信小程序的性能优化策略，包括代码包体积优化、代码注入优化和页面首屏渲染的优化策略，通过这些优化措施，京东购物小程序的启动耗时得到了显著降低，首页整体冷启动耗时从 4800ms 左右降至 2500ms 以下，有小程序性能优化需求的同学可以关注下；</li>
+<li><a href="https://mp.weixin.qq.com/s/NtUdzl9-9bP6wxsT1nbXPw">腾讯 ISUX「十二月」行业设计趋势速递</a> 内容包括微软开发者大会、Google photos 更新自动整理分类照片能力、instagram 新功能、tinder、Rooms、Discord、喜茶联名 Noritake 以及春晚公布龙年吉祥物设计等。</li>
+</ul>
+<h2>工具资源</h2>
+<ul>
+<li><a href="https://github.com/sontek/snowmachine">snowmachine</a> 一个 Python 脚本，运行后可以在终端窗口显示圣诞树和下雪；</li>
+<li><a href="https://www.newsminimalist.com/">News Minimalist</a> 一个由 ChatGPT 选出的每日热点新闻网站；</li>
+<li><a href="https://photo-to-anime.com/en">Photo to Anime</a> 一个免费的图片动漫化网站，可以上传图片进行动漫化，也可以通过文本生成动漫图片。</li>
+</ul>
+<h2>欢迎订阅</h2>
+<ul>
+<li><a href="https://github.com/campcc/weekly">Github</a></li>
+<li><a href="https://campcc.github.io/weekly/public/rss.xml">RSS</a></li>
+<li><a href="https://juejin.cn/column/7304558952179023908">掘金专栏</a></li>
+</ul>
+]]>
+            </content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-005.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title>
                 <![CDATA[第 004 期: CSS Wrapped 2023、Safari 17.2、Netlify 2023 调查报告、Oxlint、Antd Mini 微信小程序]]>
@@ -134,103 +233,6 @@
 ]]>
             </content:encoded>
             <enclosure url="https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-003.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title>
-                <![CDATA[第 002 期: Biome wins $20k、XState 5、Astro 4、Vectorizer.ai、编程语言发展史、10s 生成 LOGO]]>
-            </title>
-            <link>
-                https://campcc.github.io/weekly/issue-002
-            </link>
-            <guid>
-                https://campcc.github.io/weekly/issue-002
-            </guid>
-            <pubDate>
-                Sun, 03 Dec 2023 16:00:00 GMT
-            </pubDate>
-            <content:encoded>
-                <![CDATA[
-<blockquote>
-<p>欢迎打开新的一期 FE News Weekly, 这是第 002 期, 发表于 2023/12/04, 下面为您带来本周最新的前端技术新闻 &amp; 优质文章 ⚡️</p>
-</blockquote>
-<h2>技术新闻</h2>
-<ul>
-<li><a href="https://prettier.io/blog/2023/11/27/20k-bounty-was-claimed">Biome wins $20k via the Prettier challenge</a> JS 语言格式化工具 Prettier 发布了一个挑战，提出谁能用 Rust 语言重新实现它，并通过所有测试用例，就能获得2万美元，因为它们自己没有资源做这件事，结果不到两周的时间，<a href="https://biomejs.dev/">Biome</a> 就赢得了这个挑战。Biome 是一个为 Web 项目设计的工具链，它不仅是一个与 Prettier 的兼容性达到 96% 的 Formatter，也是一个高性能的 Linter，且独立于 Node.js，提供 LSP 支持；</li>
-<li><a href="https://astro.build/blog/astro-4-beta/">Astro 发布 4.0 Beta</a> Astro 是一个多功能的 Web 框架，用于构建快速、以内容为中心的网站，本周 Astro 发布了首个 4.0 测试版，整合了最新的 Vite 5 版本。大多数项目可以轻松升级到 Astro 4，代码变动极小甚至不需要。开发者可通过安装 astro@beta 包在现有应用中试用新测试版；</li>
-<li><a href="https://stately.ai/blog/2023-12-01-xstate-v5">XState 发布 V5</a> XState 是一个用于现代 Web 的 JavaScript 和 TypeScript 的有限状态机和状态图，可以帮助开发者管理复杂的应用状态，v5 版本引入了包括 Actor 状态机功能，大幅改进了 TypeScript 开发人员体验，减小了包大小，重新整理文档并添加了许多新示例；</li>
-<li><a href="https://bun.sh/blog/bun-v1.0.15">Bun 发布 v1.0.15</a> 这个版本修复 23 个问题。带来了性能提升，让 TSC 启动快 2 倍，Prettier 快 40%，同时支持 TensorFlow，错误语法高亮，标准的 WebSocket Client 等。</li>
-<li><a href="https://nodejs.org/en/blog/release/v18.19.0">Node 发布 v18.19.0</a> 新版本的主要更新包括：新增版本的 npm 10 支持；对模块系统的默认类型进行调整，通过添加新的标志 --experimental-default-type；提升了内置测试代码的运行环境；新增了一种名为 'DomainToUnicode' 的 API 接口；对 Buffer、URL 等类别添加了一些新的 JSDoc 信息等；在测试环节中，对部分行为进行了重新定义与修正，并新增了一些测试范式。</li>
-</ul>
-<h2>优质文章</h2>
-<ul>
-<li><a href="https://prettier.io/blog/2023/11/30/cli-deep-dive">Prettier's CLI: A Performance Deep Dive</a> Prettier 团队聘请 Fabio 来加速 Prettier 的命令行界面（CLI）。在这篇文章中，Fabio 分享了他在尝试加速 Prettier 命令行接口 (CLI) 过程中的优化经验。主要优化方向包括：加快文件的快速查找，优化路径的解析，对查找及配置步骤进行缓存以及调整 CLI 输出。此外，Fabio 还提出其未来可能进行的优化方向，包括核心格式化函数的优化，进一步优化缓存功能及批量日志输出，以及对视觉效果的优化等；</li>
-<li><a href="https://mp.weixin.qq.com/s/PGUv_10uDmE8qAoS6TZcJg">腾讯技术工程：一组图了解编程语言发展史</a> 本文以一组生动形象的图集，从时间维度介绍了从计算机被发明至今的几十年里，一些流行的、具有历史影响力的编程语言；</li>
-<li><a href="https://cult.honeypot.io/reads/top-nextjs-performance-benefits/">Why Choose Next.js - Top 5 Performance Benefits</a> 本文探讨了选择 Next.js 的五大性能优势，Next.js 是一个灵活的 React 框架，逐渐成为工程师构建高性能应用程序的首选，对于网页应用性能的提升，Next.js 有五大性能优势，包括服务器端渲染、静态生成、自动优化、快速刷新和增量静态生成，此外 Next.js 还提供了一系列用户友好的功能，例如错误处理，快速刷新，内置 SEO 支持，预构建的分析功能和与第三方平台的无缝整合；</li>
-<li><a href="https://electrek.co/2023/11/21/my-love-of-weird-electric-vehicles-landed-me-on-china-state-tv/">How my love of weird electric vehicles landed me on 100 million Chinese TVs</a> 作者是美国的一个电池专家，也是一个的电动车爱好者，最初只是猎奇，不料发现阿里巴巴上面，都是又奇怪又便宜的电动车。他忍不住就买了一辆，托运到美国，从此一发不可收拾，写了很多中国低价电动车的介绍文章，在美国出名了，后来被邀请到中国国家电视台进行访谈；</li>
-<li><a href="https://www.electronjs.org/blog/ecosystem-2023-eoy-recap">Electron：Ecosystem 2023 Recap</a> Electron's 开发者回顾了 Electron 在 2023 的整个生态，其中包括 Electron Forge 7 的推出，这个工具用于打包和分发 Electron 应用，增加了 Google Cloud Storage 发布器和 ESM forge 配置文件的支持，并可以并行运行 Makers 以提高效率，此外，为了提供更好的静态存储自动更新，Electron 针对无服务器自动应用更新进行了改进。与此同时，Electron 还将所有第一方工具统一到 @electron / 命名空间下。</li>
-<li><a href="https://mp.weixin.qq.com/s/-WehJoGc8ZG1aei-9XRoig">生成式 AI 应用落地小结</a> Thoughtworks 在 AutoDev 和 Studio B3 等项目中进行了实践，并提出了使用多个模型来支持不同子任务的观点。本文讨论了在 JetBrains IDE 中使用的多种模型，包括本地向量化模型、OpenAI 问答模型、本地模型、单行代码补全模型、云端代码补全模型和拼写检查模型。根据不同的场景，需要结合多种机器学习模型来增强人类。</li>
-</ul>
-<h2>工具资源</h2>
-<ul>
-<li><a href="https://vectorizer.ai/">Vectorizer.ai: Convert your JPEG and PNG Images to SVGs with AI</a> 一个 AI 转换 SVG 的工具，可以将 JPEG 或 PNG 图片转换为 SVG，试了下效果还不错，目前 Beta 版本是免费的；</li>
-<li><a href="https://ailogo.qq.com/guide/brandname">腾讯 AIDesign</a> 一个 AI 生成 LOGO 的工具，10秒创建一个 LOGO，只需要输入品牌名称，选择行业分类和一些联想关键词，最后选择一个品牌主色就可以生成 LOGO；</li>
-<li><a href="https://animotion.dev/">Animotion.dev</a> 一个可视化的 CSS 动画构建工具，允许用户通过拖拽、调整大小、旋转、裁剪等操作来创建 CSS 动画，内置了非常多的动画和缓动特效。</li>
-</ul>
-<h2>欢迎订阅</h2>
-<ul>
-<li><a href="https://github.com/campcc/weekly">Github</a></li>
-<li><a href="https://campcc.github.io/weekly/public/rss.xml">RSS</a></li>
-<li><a href="https://juejin.cn/column/7304558952179023908">掘金专栏</a></li>
-</ul>
-]]>
-            </content:encoded>
-            <enclosure url="https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-002.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title>
-                <![CDATA[第 001 期: 字节 Rsbuild 0.1、清华大学未来十大变革科技榜单、腾讯 ISUX 设计趋势速递、TypeScript 5.3]]>
-            </title>
-            <link>
-                https://campcc.github.io/weekly/issue-001
-            </link>
-            <guid>
-                https://campcc.github.io/weekly/issue-001
-            </guid>
-            <pubDate>
-                Sun, 26 Nov 2023 16:00:00 GMT
-            </pubDate>
-            <content:encoded>
-                <![CDATA[
-<blockquote>
-<p>欢迎打开新的一期 FE News Weekly, 这是第 001 期, 发表于 2023/11/27, 下面为您带来本周最新的前端技术新闻 &amp; 优质文章 ⚡️</p>
-</blockquote>
-<h2>技术新闻</h2>
-<ul>
-<li><a href="https://mp.weixin.qq.com/s/dorbW52HcJCaJaL9yybC3Q">字节 Rsbuild v0.1 发布</a> Rsbuild 是基于 Rspack 的构建工具，旨在提供更容易上手和开箱即用的功能。它可以帮助减少 90% 的配置，并获得10倍的构建速度。Rsbuild 具有易于配置、性能优先、插件生态、产物稳定和框架无关等特性。它集成了基于 Rust 的高性能工具，提供了 5~10 倍的构建性能和更轻量的依赖体积。Rsbuild 还内置了一个轻量级的插件系统，兼容大部分的 webpack 插件和所有的 Rspack 插件；</li>
-<li><a href="https://mp.weixin.qq.com/s/rNSwQT35yWkVk4PMceAoyg">腾讯 ISUX「十一月」行业设计趋势速递</a> 本文介绍了一系列与设计和科技相关的新闻和趋势。其中包括 Telegram 增强回复消息的能力、Google 推出自动生成广告工具、YouTube 测试聊天机器人YouChat、Windows 11 发布重磅更新、Meta开发沉浸式社交聊天机器人、方正字库发布 2023 字体趋势报告等内容；</li>
-<li><a href="https://mp.weixin.qq.com/s/VcpzuojCQpAs_Nea0Lns9g">清华大学发布“青年最关注的改变未来十大变革科技”榜单</a> 这个榜单由 9000 余名清华师生投票选出。入选的十项前沿科技包括：超快激光加工、第六代移动通信技术、第四代半导体材料、动力电池回收技术、高温超导材料、类脑计算、类器官芯片、生物3D打印、生物质能碳捕集与封存、通用人工智能。这些科技领域的发展将推动科技创新，对社会生产力发展产生深远影响。同时，《探臻科技评论》还发布了《下一代创新科技》出版物，解读了重点领域科技成果的发展历程及当前进展；</li>
-<li><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-3/">TypeScript 发布 5.3</a> TypeScript 5.3 的新特性包括导入属性和稳定地支持在所有模块模式中使用 resolution-mode，针对布尔值的缩窄对比，以及通过 Symbol.hasInstance 进行 instanceof 缩窄。此外，TypeScript 5.3 还进行了性能改进，通过跳过 JSDoc 解析以进行优化，比较非标准化交集以进行优化，以及在 tsserverlibrary.js 和 typescript.js 间进行整合等提升编译速度、减少内存占用，开发团队鼓励开发者可以尽快升级到这个新版本；</li>
-<li><a href="https://seanmonstar.com/blog/hyper-v1/">Hyper 发布 1.0</a> Hyper 是一个用 Rust 编写的 HTTP 库，旨在提供高性能和易用性，Hyper 1.0 的新特性包括 HTTP/2 支持、异步I/O、流式请求和响应等。该库已经被 Cloudflare, Discord 等企业在其关键系统中广泛使用，并受到 AWS 和 Embark 等公司的高度评价，开发团队计划在未来支持更多的HTTP特性、改进API设计并进一步提升性能。</li>
-</ul>
-<h2>优质文章</h2>
-<ul>
-<li><a href="https://thenewstack.io/combining-ai-with-react-for-a-smarter-frontend/">Combining AI with React for a Smarter Frontend</a> 本文讨论了在 React 应用中集成人工智能技术的方法和技术。作者建议使用 Next.js 作为技术栈的基础，并与 OpenAI 的Chat GPT 和 GPT 进行连接。作者还提到了 LangChain 作为技术栈的关键部分，以及使用 MongoDB 和 MongoDB Atlas Vector Search 来存储向量嵌入，通过结合这些技术，可以实现更智能、更强大的React应用；</li>
-<li><a href="https://www.joshwcomeau.com/css/interactive-guide-to-grid/">An Interactive Guide to CSS Grid</a> 一篇关于 CSS Grid 的互动指南。作者首先介绍了 CSS Grid 的基本概念，然后详细解释了如何使用 Grid 属性来创建复杂的布局。他通过一系列的互动示例，展示了如何使用这些属性来创建各种布局。最后介绍了一些高级的 Grid 特性，如 Grid 自动流、Grid 模板区域和 Grid 层叠顺序，这篇文章对于想要深入了解 CSS Grid 的开发者来说是一份很好的学习资源；</li>
-<li><a href="https://ishadeed.com/article/css-nesting/">CSS Nesting</a> 本文介绍 CSS 嵌套，该特性已经被所有主流浏览器所支持，作者解释了 CSS 嵌套的基本概念，即在一个 CSS 规则内部定义另一个 CSS 规则，并详细介绍了如何使用 CSS 嵌套，包括如何使用&quot;&amp;&quot;符号来引用父选择器，如何使用嵌套来组织媒体查询，以及如何使用嵌套来创建 BEM 风格的 CSS。他还讨论了 CSS 嵌套的优点和缺点，并提醒读者在使用 CSS 嵌套时要注意避免过度嵌套，以保持代码的可读性和可维护性；</li>
-<li><a href="https://tech.meituan.com/2023/11/23/the-intent-of-ui-interaction-understanding.html">基于UI交互意图理解的异常检测方法</a> 美团到店平台技术部/质量工程部与复旦大学计算机科学技术学院周扬帆教授团队展开了“基于UI交互理解的智能化异常检测方法”的科研合作，利用多模态模型对用户可见文本、视觉图像内容和 UI 组件树中的属性进行融合，实现了对于 UI 交互意图的准确识别。该工作对于大前端 UI 的质量保障等多个领域都具有可借鉴的意义，介绍该工作的学术论文已经被 ESEC/FSE 2023 （软件领域CCF A类推荐会议）接收，并将于 12 月 6 日在其工业届轨（Industry track）公开发布和推介;</li>
-<li><a href="https://arne.me/articles/30-bits-of-advice-for-30-years">30 Bits of Advice for 30 Years</a> 作者 Arne 在自己 30 岁生日时分享了他的 30 条人生建议，这些建议涵盖了多个方面，包括职业发展、人际关系、健康生活等；在职业发展方面，他建议读者要勇于接受挑战，不断学习新知识，同时也要注重工作与生活的平衡；在人际关系方面，他强调了诚实、尊重和理解的重要性，同时也提醒读者要珍惜身边的人；在健康生活方面，他建议读者要注重身体健康，定期运动，保持良好的饮食习惯；最后，他鼓励读者要有自己的人生目标，勇于追求自己的梦想；</li>
-<li><a href="https://benw.is/posts/how-i-improved-my-rust-compile-times-by-seventy-five-percent">How I Improved My Rust Compile Times by 75%</a> Ben W. 分享了他如何通过优化代码结构，将 Rust 编译时间提高了 75% 的经验，这包括使用 Mold 链接器，Cranelift 编码器，和更高的优化等级，他发现使用 Mold 链接器和 Cranelift 代码生成器可以最大程度地提高编译速度，能使编译时间分别减少 75% 和 25%。此外，博主对 Rust 的热重载提出了替代方法，即 cargo-leptos 的 --hot-reload 标志，它可以在更改检测时通过 web socket 连接向浏览器发送 html 和 css 补丁，并在后台编译；</li>
-<li><a href="https://mp.weixin.qq.com/s/so-mXAoPBhbO_yJMAi-qmg">得物的微前端研发提效</a> 本文介绍了得物技术在推进效率前端微应用中，微前端研发效率所面临的挑战和解决方案。文章列举了微前端研发过程中的费力点，包括本地开发的服务启动、基座应用本地代码的适配性改造、频繁无规律刷新等，并介绍了技术调研中的 Shared 通信、Mock 父应用环境、Chrome 代理插件等解决方案。</li>
-</ul>
-<h2>欢迎订阅</h2>
-<ul>
-<li><a href="https://github.com/campcc/weekly">Github</a></li>
-<li><a href="https://campcc.github.io/weekly/public/rss.xml">RSS</a></li>
-<li><a href="https://juejin.cn/column/7304558952179023908">掘金专栏</a></li>
-</ul>
-]]>
-            </content:encoded>
-            <enclosure url="https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-001.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>

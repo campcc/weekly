@@ -45,8 +45,8 @@ const feed = new Feed({
 });
 
 posts
-  .slice(0, 4)
   .reverse()
+  .slice(0, 4)
   .forEach((post) => {
     feed.addItem({
       title: post?.title,
