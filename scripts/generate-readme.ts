@@ -2,7 +2,6 @@ import fs from 'fs';
 import { posts } from './rss';
 
 const latestPosts = posts
-  .reverse()
   .map(
     (post) =>
       `- [Weekly ${post?.title}](https://campcc.github.io/weekly/docs/issue-${post.currentDocNum})`,
