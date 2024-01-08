@@ -34,3 +34,4 @@ If you find the weekly helpful, feel free to make friends with me ❤️
 - [Weekly 第 004 期: CSS Wrapped 2023、Safari 17.2、Netlify 2023 调查报告、Oxlint、Antd Mini 微信小程序](https://campcc.github.io/weekly/docs/issue-004)
 - [Weekly 第 005 期: Firefox 121、Web Development in 2023、Adobe 放弃收购 Figma、date-fns V3、Sveltekit 2](https://campcc.github.io/weekly/docs/issue-005)
 - [Weekly 第 006 期: OneFlow 技术年货、Ant Design Web3 发布、V8 新编译器、NodeJS 2023 Performance](https://campcc.github.io/weekly/docs/issue-006)
+- [Weekly 第 007 期: 2023 JavaScript Rising Stars、2024 CSRankings、Vue 3.4、Vue Devtools、TinyEngine](https://campcc.github.io/weekly/docs/issue-007)
