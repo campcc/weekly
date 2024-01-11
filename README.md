@@ -12,7 +12,7 @@ In this era of information overload, front-end technology is rapidly evolving, w
 
 ## Where does the weekly content come from?
 
-The sources for technology news and quality articles include, but are not limited to: [Github Trending](https://github.com/trending), [Echo JS](https://www.echojs.com/), [JavaScript Weekly](https://javascriptweekly.com/), [CSS Weekly](https://css-weekly.com/), [W3C News & Blog](https://www.w3.org/news-events/), [MDH Weekly](https://mdhweekly.com/), [Tech Enthusiasts' Weekly](https://github.com/ruanyf/weekly), [Frontend Focus](https://frontendfoc.us/), and high-quality tech blogs from companies like Meituan, ByteDance, Tencent, Alibaba, as well as Meituan's internal quality newsletters, journals, and monthly magazines.
+The sources for technology news and quality articles include, but are not limited to: [Github Trending](https://github.com/trending), [Echo JS](https://www.echojs.com/), [JavaScript Weekly](https://javascriptweekly.com/), [CSS Weekly](https://css-weekly.com/), [W3C News & Blog](https://www.w3.org/news-events/), [MDH Weekly](https://mdhweekly.com/), [Tech Enthusiasts' Weekly](https://github.com/ruanyf/weekly), [Frontend Focus](https://frontendfoc.us/), [Whatever, Jamie](https://buttondown.email/whatever_jamie), and high-quality tech blogs from companies like Meituan, ByteDance, Tencent, Alibaba, as well as Meituan's internal quality newsletters, journals, and monthly magazines.
 
 ## Make a friend
 
