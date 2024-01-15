@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 import { getNextDocNum } from './utils';
 import { posts } from './rss';
 
-const latestPost = posts.at(-1);
+const latestPost = posts.at(-0);
 const nextDocNum = getNextDocNum();
 const nextDocname = `docs/issue-${nextDocNum}.md`;
 const titleImage = `https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-${nextDocNum}.png`;

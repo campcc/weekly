@@ -11,7 +11,7 @@
             FE News Weekly 前端技术新闻周刊
         </description>
         <lastBuildDate>
-            Mon, 08 Jan 2024 03:06:17 GMT
+            Mon, 15 Jan 2024 03:06:09 GMT
         </lastBuildDate>
         <docs>
             https://validator.w3.org/feed/docs/rss2.html
@@ -33,6 +33,57 @@
         <copyright>
             FE News Weekly since 2023
         </copyright>
+        <item>
+            <title>
+                <![CDATA[第 008 期: CodePen 2023、C# 年度编程语言、ProFlow 1.0、NodeJs 20.11.0、quick-lint-js]]>
+            </title>
+            <link>
+                https://campcc.github.io/weekly/issue-008
+            </link>
+            <guid>
+                https://campcc.github.io/weekly/issue-008
+            </guid>
+            <pubDate>
+                Sun, 14 Jan 2024 16:00:00 GMT
+            </pubDate>
+            <content:encoded>
+                <![CDATA[
+<blockquote>
+<p>欢迎打开新的一期 FE News Weekly, 这是第 008 期, 发表于 2024/01/15, 下面为您带来本周最新的前端技术新闻 &amp; 优质文章 ⚡️</p>
+</blockquote>
+<h2>技术新闻</h2>
+<ul>
+<li><a href="https://codepen.io/2023/popular">CodePen 2023</a> CodePen 发布 2023 年最受欢迎的 100 个 Pen，涉及 3D、Charts、CSS、WebGL、动画、VR 等多个领域；</li>
+<li><a href="https://www.tiobe.com/tiobe-index/">C# 成为年度编程语言</a> 2023 TIOBE 年度编程语言正式揭晓，C# 在陪跑多年后首次斩获这一殊荣，根据 TIOBE 指数，C# 在 2023 年内经历了最大的增长，增长率达到了 1.43%，这种增长可以归因于它在 Web 应用程序后端和游戏等领域的日益流行，以及 Unity 中的实用性，但遗憾的是在国内，C# 的认知度其实并不高；</li>
+<li><a href="https://pro-flow.antdigital.dev/">ProFlow 流程编辑器框架 1.0 发布</a> 支付宝体验科技发布了开源免费的流程编辑器框架 ProFlow，面向数字科技业务中的多图展示、编辑等相关业务，支持更现代化的 UI 组件设计以及 React 友好的 API 以及完善的基本功能，如无极缩放，自动布局，多线重叠的展示优化等；</li>
+<li><a href="https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V20.md#2024-01-09-version-20110-iron-lts-ulisesgascon">NodeJs 发布 20.11.0</a> NodeJS 发布新的 LTS 版本 Iron，新版本支持 ESM 语法检测、import.meta、切换默认模块系统、文件系统函数的 flush 选项、试验性的 WebSocket 客户端等；</li>
+<li><a href="https://github.com/vitest-dev/vitest/releases/tag/v1.2.0">Vitest 发布 1.2</a> 新版本特性包括，支持大小写路径匹配的支持、自动补全搜索、错误信息中添加语法高亮显示、允许扩展 toEqual 等。</li>
+</ul>
+<h2>优质文章</h2>
+<ul>
+<li><a href="https://www.smashingmagazine.com/2024/01/top-frontend-tools-2023/">Top Front-End Tools Of 2023</a> 作者 Louis Lazaris 分享了 2023 年前端 60 多个流行的工具，涵盖了 JavaScript 库、CSS 框架、UI 组件库、设计工具等。其中包括 Kuma UI、Boxslider、OpenGPT、Boxslider、Effect、HatTip、Chatbox 等，此外作者还创办了一个 《Web 工具周刊》，感兴趣的同学可以点击 <a href="https://webtoolsweekly.com/">这里</a> 订阅；</li>
+<li><a href="https://mp.weixin.qq.com/s/F0I5epf88SX9PaG-q_zIPQ">设计故事｜ QQ9 轻松做自己</a> 腾讯 ISUX 分享了 QQ 最新版本的设计故事，作为一个拥有 25 年历史的社交产品，QQ 早已不再是一个简单的即时通讯工具，而是一个覆盖通讯、社区、短视频、元宇宙等多场景，并全面支持桌面端、平板端与移动端的多元化社交空间。本文从色彩、元素、图标、视觉体验、状态面板、表情、跨端一致性等方面介绍了 QQ9 的设计；</li>
+<li><a href="https://mp.weixin.qq.com/s/xgnr9dxiCKUT3TOaE2rxCg">腾讯研究院 2023 年度盘点</a> 腾讯研究院根据外部转载量、阅读数、互动量等多项指标，评选出了 2023 年度 “腾讯研究院” 公众号的十大热文、十大报告、五大专栏与年度关键词，根据过去一年的研究成果报告，“生成式AI” 成为今年的年度关键词；</li>
+<li><a href="https://mp.weixin.qq.com/s/Qd16Sxq3nvJyA9mZgFKq7w">2023 Top 10文章推荐｜得物技术</a> 本文是 2023 年得物技术公众号最热门的 10 篇技术文章推荐，包括得物 Redis 设计与实践、得物自研 API 网关实践之路、得物商品状态体系介绍、虚拟线程原理及性能分析等；</li>
+<li><a href="https://mp.weixin.qq.com/s/H5tcU2eu44kvZGp5FP8O5w">Bill Gates 对谈 Sam Altman：AGI 五年内的发展预测，以及将如何改变人类社会？</a> 本文是比尔·盖茨和 OpenAI 的创始人 Sam Altman 的一次播客对谈，对谈时间在 OpenAI Drama 事件之前，对谈中 Alrman 聊了他对于大模型未来发展的期待、如何看到大模型的监管、如何以更好的心态迎接 AGI 等。</li>
+</ul>
+<h2>工具资源</h2>
+<ul>
+<li><a href="https://uxbaike.com/page/1387">从零开始学设计</a> 一个移动端 App UI 设计的知识库，包含设计的基本概念、基础规范、控件、组件、页面和视觉风格等知识；</li>
+<li><a href="https://www.changeface.online/">AI 换脸</a> 一个 AI 换脸工具，上传图片或视频，可以对里面的人物进行换脸；</li>
+<li><a href="https://visactor.io/">VisActor</a> 一个字节出品的前端数据可视化解决方案，在覆盖常规可视化场景的同时，以叙事可视化为新的着力点，以智能可视化为目标，形成了包括渲染引擎、可视化语法、数据分析组件、图表组件、表格组件、GIS组件、图可视化组件、智能组件等多个模块组成的可视化解决方案；</li>
+<li><a href="https://quick-lint-js.com/">quick-lint-js</a> 一个 JavaScript link 工具，比 ESLint 快 90 多倍，并且几乎不需要配置。</li>
+</ul>
+<h2>欢迎订阅</h2>
+<ul>
+<li><a href="https://github.com/campcc/weekly">Github</a></li>
+<li><a href="https://campcc.github.io/weekly/public/rss.xml">RSS</a></li>
+<li><a href="https://juejin.cn/column/7304558952179023908">掘金专栏</a></li>
+</ul>
+]]>
+            </content:encoded>
+            <enclosure url="https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-008.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title>
                 <![CDATA[第 007 期: 2023 JavaScript Rising Stars、2024 CSRankings、Vue 3.4、Vue Devtools、TinyEngine]]>
@@ -182,58 +233,6 @@
 ]]>
             </content:encoded>
             <enclosure url="https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-005.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title>
-                <![CDATA[第 004 期: CSS Wrapped 2023、Safari 17.2、Netlify 2023 调查报告、Oxlint、Antd Mini 微信小程序]]>
-            </title>
-            <link>
-                https://campcc.github.io/weekly/issue-004
-            </link>
-            <guid>
-                https://campcc.github.io/weekly/issue-004
-            </guid>
-            <pubDate>
-                Sun, 17 Dec 2023 16:00:00 GMT
-            </pubDate>
-            <content:encoded>
-                <![CDATA[
-<blockquote>
-<p>欢迎打开新的一期 FE News Weekly, 这是第 004 期, 发表于 2023/12/18, 下面为您带来本周最新的前端技术新闻 &amp; 优质文章 ⚡️</p>
-</blockquote>
-<h2>技术新闻</h2>
-<ul>
-<li><a href="https://developer.chrome.com/blog/css-wrapped-2023?hl=en">CSS Wrapped: 2023</a> 谷歌 Chrome 团队发布 2023 年 CSS 发展总结，介绍了今年 CSS 语言和功能的更新。其中包括三角函数、CSS 嵌套、subgrid、text-wrap、color-mix、容器查询、:has() 选择器、线性转换等诸多特性以及对应的浏览器支持情况；</li>
-<li><a href="https://webkit.org/blog/14787/webkit-features-in-safari-17-2/">Safari 发布 17.2</a> Safari 17.2 版本包含了 39 个新特性和 169 个问题修复，其中新特性包括 CSS 嵌套、新的尺寸单位 rcap、rex、ric 和 rch、CSS Counters、Mask border、预加载响应式图片，还包括对 JavaScript 新特性的支持，如 BigInt 和 Intl.DisplayNames，可选链和空值合并等；</li>
-<li><a href="https://www.netlify.com/pdf/the-state-of-web-development-2023.pdf/?submissionGuid=505ab3ff-88c8-423f-84e6-ad12f14123ba">The State of Web Development 2023</a> Netlify 发布 2023 年 Web 开发者调查报告，大家比较关注的前端框架部分，React 仍是目前使用最多的前端框架，但 Astro 成为了今年最受开发者欢迎的框架，Tailwind CSS 势头很猛，使用率上几乎接近 Bootstrap，成为今年最受欢迎的 CSS 框架，Monorepo 框架上，Nx 和 Lerna 使用率不相上下，但 Turborepo 成为今年最受欢迎的 Monorepo 框架；</li>
-<li><a href="https://oxc-project.github.io/blog/2023-12-12-announcing-oxlint.html">Oxlint 已经可用</a> Oxlint 是一个 JavaScript linter，旨在捕捉错误或无用代码，而无需任何默认配置。它比 ESLint 快 50-100 倍，在实际场景中，Shopify 报告称他们之前需要 75 分钟的 ESLint 运行现在只需要 10 秒；</li>
-<li><a href="https://mp.weixin.qq.com/s/eyAd77KBjpyowz35DO3EXQ">Ant Design Mini 支持微信小程序</a> Ant Design Mini 是原支付宝小程序 UI 组件库，目前已经支持微信小程序，当前版本还处于 Beta 阶段，完成了 16 个核心组件的适配.</li>
-</ul>
-<h2>优质文章</h2>
-<ul>
-<li><a href="https://calendar.perfplanet.com/2023/extending-responsive-video-with-html-web-components/">Extending Responsive Video with HTML Web Components</a> 本文探讨了响应式视频以及如何使用 HTML Web 组件来扩展原生视频行为。文章首先介绍了 HTML Web 组件的基本概念，然后详细介绍了如何使用 HTML 模板、JavaScript 和自定义元素 API 创建一个响应式视频组件，其中包括使用 Shadow DOM 来封装组件的样式和结构，CSS 变量来自定义组件的样式，HTML 模板和插槽来实现组件的内容投影，这些技术使得开发者可以创建出高度可定制和可重用的响应式视频组件；</li>
-<li><a href="https://mp.weixin.qq.com/s/Ej0krAeYh86mubRSpC4brg">淘宝双十一互动图片和文字的处理方案</a> 本文介绍了淘宝双十一互动图片和文字的处理方案，包括优化图片、CDN 参数调整、选择适合不同机型的图像格式、图片处理逻辑以及特殊字体使用的方案等；</li>
-<li><a href="https://marcotm.com/articles/information-extraction-with-large-language-models-parsing-unstructured-data-with-gpt/">Information Extraction with Large Language Models - Parsing Unstructured Data with GPT-3</a> 文章探讨了使用大型语言模型（如GPT）进行信息提取和解析非结构化数据的方案，作者演示了一个实例，使用 GPT-3 将公司的招聘帖子转成 JSON 数据；</li>
-<li><a href="https://sinja.io/blog/guide-to-react-suspense">Guide to React Suspense and use hook for busy bees</a> 一份 React Suspense 和 use Hook 的使用指南。作者介绍了 React 的 Suspense 的基本概念，在 React 18 的版本中的重要升级，如服务端渲染流和局部 hydration 的支持，然后介绍了如何使用 Suspense 进行组件的懒加载和数据获取，以及 Suspense 的一些高级用法，如并行数据获取、依赖管理、错误处理等；</li>
-<li><a href="https://os.phil-opp.com/zh-CN/">Writing an OS in Rust</a> 一份博客系列文章，探讨从零开始用 Rust 编程语言写一个操作系统。作者由浅入深地演示和讲解了用 Rust 编写操作系统的全部过程，包括最基础的内核构建、异常处理、硬件中断、内存管理以及异步等关键部分，以及操作系统设计的各种常见问题和解决办法，不仅提供了完整的教程，同时也在 Github 上公开了所有相关的源代码；</li>
-<li><a href="https://overreacted.io/a-chain-reaction/">A Chain Reaction</a> 连锁反应，前 React 核心开发者 Dan Abramov 的一篇文章，通过一连串的例子，由浅入深地解释了如何实现一个 JSX 的翻译器；</li>
-<li><a href="https://www.smashingmagazine.com/2023/12/preparing-interaction-next-paint-web-core-vital/">Preparing For Interaction To Next Paint, A New Web Core Vital</a> 本文介绍了即将取代 First Input Delay 作为核心网页重要指标之一的 Interaction to Next Paint，探讨了这两个指标的区别，以及为什么我们需要一种新的方法来衡量交互响应性，如何对网站性能进行优化，以顺利过渡到最新的核心网页重要指标。</li>
-</ul>
-<h2>工具资源</h2>
-<ul>
-<li><a href="https://imagine.meta.com/">Imagine</a> Meta 公司推出的免费文生图工具，使用 Facebook 和 Instagram 的 11 亿张图片作为训练集；</li>
-<li><a href="https://github.com/Nutlope/roomGPT">RoomGPT</a> 一个开源软件，支持上传一张房间照片，利用 AI 进行重新设计；</li>
-<li><a href="https://trippy.cli.rs/">Trippy</a> 一个网络问题分析工具，结合了 traceroute 和 ping 的功能。</li>
-</ul>
-<h2>欢迎订阅</h2>
-<ul>
-<li><a href="https://github.com/campcc/weekly">Github</a></li>
-<li><a href="https://campcc.github.io/weekly/public/rss.xml">RSS</a></li>
-<li><a href="https://juejin.cn/column/7304558952179023908">掘金专栏</a></li>
-</ul>
-]]>
-            </content:encoded>
-            <enclosure url="https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-004.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>
