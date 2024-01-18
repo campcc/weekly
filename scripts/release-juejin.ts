@@ -9,11 +9,10 @@ const publich = async () => {
 
   // 从命令行获取掘金 cookie
   // @todo：自动登录掘金获取 cookie
-  const answers = await inquirer.prompt([
+  const { cookie, confirmed } = await inquirer.prompt([
     { name: 'cookie', type: 'input', message: 'Input the juejin cookie' },
     { name: 'confirmed', type: 'confirm', message: 'Confirm to publish?' },
   ]);
-  const { cookie, confirmed } = answers;
 
   if (confirmed) {
     // 获取草稿
@@ -32,7 +31,7 @@ const publich = async () => {
     await service.publishPost({
       draft_id: postId,
     });
-    console.log(chalk.green(`\npublish success!\npost link: ${postLink}`));
+    console.log(chalk.green(`\npublish success!\n\narticle link: ${chalk.yellowBright(postLink)}\n`));
   }
 };
 

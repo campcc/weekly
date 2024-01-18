@@ -2,11 +2,9 @@ import fs from 'fs';
 import posts from './posts';
 
 const latestPosts = posts
-  .map(
-    (post) =>
-      `- [Weekly ${post?.title}](https://campcc.github.io/weekly/docs/issue-${post.currentDocNum})`,
-  ).join(`
-`);
+  .reverse()
+  .map((post) => `- [Weekly ${post?.title}](https://campcc.github.io/weekly/docs/issue-${post.currentDocNum})`)
+  .join('\n');
 
 const images = {
   logo: `<img src="https://raw.githubusercontent.com/campcc/weekly/main/images/logo.png" width="130" height="64" />`,
