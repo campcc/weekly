@@ -1,7 +1,7 @@
 import fs from 'fs';
 import dayjs from 'dayjs';
 import { getNextDocNum } from './utils';
-import { posts } from './rss';
+import posts from './posts';
 
 const latestPost = posts.at(-0);
 const nextDocNum = getNextDocNum();

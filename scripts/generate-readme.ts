@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { posts } from './rss';
+import posts from './posts';
 
 const latestPosts = posts
   .map(
