@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "rss": "esno scripts/rss.ts",
-    "readme": "esno scripts/generate-readme.ts",
-    "post": "esno scripts/generate-post.ts",
-    "release-juejin": "esno scripts/release-juejin.ts",
+    "rss": "NODE_NO_WARNINGS=1 esno scripts/rss.ts",
+    "readme": "NODE_NO_WARNINGS=1 esno scripts/generate-readme.ts",
+    "post": "NODE_NO_WARNINGS=1 esno scripts/generate-post.ts",
+    "release-juejin": "NODE_NO_WARNINGS=1 esno scripts/release-juejin.ts",
     "release": "NODE_NO_WARNINGS=1 esno scripts/release.ts"
   },
   "repository": {
