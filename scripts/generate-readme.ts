@@ -2,6 +2,7 @@ import fs from 'fs';
 import posts from './posts';
 
 const latestPosts = posts
+  .slice()
   .reverse()
   .map((post) => `- [Weekly ${post?.title}](https://campcc.github.io/weekly/docs/issue-${post.currentDocNum})`)
   .join('\n');

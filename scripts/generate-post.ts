@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 import { getNextDocNum } from './utils';
 import posts from './posts';
 
-const latestPost = posts.at(-0);
+const latestPost = posts[posts.length - 1];
 const nextDocNum = getNextDocNum();
 const nextDocname = `docs/issue-${nextDocNum}.md`;
 const titleImage = `https://raw.githubusercontent.com/campcc/weekly/main/images/weekly-${nextDocNum}.png`;
