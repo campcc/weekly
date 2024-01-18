@@ -9,9 +9,9 @@ const publich = async () => {
 
   // 从命令行获取掘金 cookie
   // @todo：自动登录掘金获取 cookie
-  const { confirmed, cookie } = await inquirer.prompt([
-    { name: 'confirmed', type: 'confirm', message: chalk.green('Need to publish to Juejin Column?') },
-    { name: 'cookie', type: 'input', message: 'Please input the juejin cookie' },
+  const { cookie, confirmed } = await inquirer.prompt([
+    { name: 'cookie', type: 'input', message: 'Input the juejin cookie' },
+    { name: 'confirmed', type: 'confirm', message: 'Confirm to publish?' },
   ]);
 
   if (confirmed) {
