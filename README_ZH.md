@@ -28,7 +28,6 @@
 
 ## 往期周刊
 
-- [Weekly 第 009 期: null](https://campcc.github.io/weekly/docs/issue-009)
 - [Weekly 第 008 期: CodePen 2023、C# 年度编程语言、ProFlow 1.0、NodeJs 20.11.0、quick-lint-js](https://campcc.github.io/weekly/docs/issue-008)
 - [Weekly 第 007 期: 2023 JavaScript Rising Stars、2024 CSRankings、Vue 3.4、Vue Devtools、TinyEngine](https://campcc.github.io/weekly/docs/issue-007)
 - [Weekly 第 006 期: OneFlow 技术年货、Ant Design Web3 发布、V8 新编译器、NodeJS 2023 Performance](https://campcc.github.io/weekly/docs/issue-006)
