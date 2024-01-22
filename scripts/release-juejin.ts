@@ -29,9 +29,8 @@ const publich = async () => {
     });
     // 发布草稿到专栏
     const res = await service.publishPost({
-      draft_id: postId,
+      id: postId,
     });
-    console.log(res);
     console.log(chalk.green(`\npublish success!\n\narticle link: ${chalk.yellowBright(postLink)}\n`));
   }
 };
