@@ -19,7 +19,7 @@ const publich = async () => {
     const service = new Service({ cookie });
     const drafts = await service.getDrafts();
     const postId = drafts?.[0]?.id;
-    const postLink = `https://juejin.cn/post/${postId}`;
+    const postLink = `https://juejin.cn/spost/${postId}`;
     // 更新草稿内容
     await service.updatePost({
       id: postId,
@@ -28,7 +28,7 @@ const publich = async () => {
       content: latestPost.markdown,
     });
     // 发布草稿到专栏
-    const res = await service.publishPost({
+    await service.publishPost({
       id: postId,
     });
     console.log(chalk.green(`\npublish success!\n\narticle link: ${chalk.yellowBright(postLink)}\n`));
