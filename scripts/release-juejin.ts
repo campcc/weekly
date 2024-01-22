@@ -28,9 +28,10 @@ const publich = async () => {
       content: latestPost.markdown,
     });
     // 发布草稿到专栏
-    await service.publishPost({
+    const res = await service.publishPost({
       draft_id: postId,
     });
+    console.log(res);
     console.log(chalk.green(`\npublish success!\n\narticle link: ${chalk.yellowBright(postLink)}\n`));
   }
 };
